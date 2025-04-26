@@ -1,0 +1,41 @@
+{
+  "name": "vscode-crema-theme",
+  "displayName": "Crema",
+  "description": "☕ A warm minimal brown theme for daily code brew",
+  "version": "1.0.1",
+  "publisher": "Le-BlitzZz",
+  "keywords": [
+    "crema",
+    "Crema",
+    "creme",
+    "Creme",
+    "dark theme",
+    "brown theme",
+    "dark brown theme",
+    "dark",
+    "dark brown",
+    "crema theme",
+    "creme theme",
+    "brown",
+    "crema minimal"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Le-BlitzZz/vscode-crema-theme"
+  },
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Crema Minimal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/crema-minimal.json"
+      }
+    ]
+  }
+}
