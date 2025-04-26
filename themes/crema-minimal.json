@@ -265,10 +265,11 @@
         // -- MAKEFILE
         {
             "scope": [
-                "string.interpolated.makefile"
+                "string.interpolated.makefile",
+                "keyword.control.@.makefile"
             ],
             "settings": {
-                "foreground": "#CE9178"
+                "foreground": "#cccccc"
             }
         },
         // -- MARKDOWN
