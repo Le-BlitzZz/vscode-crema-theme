@@ -33,7 +33,8 @@
                 "markup.raw.block.markdown",
                 "constant.other.character-class.regexp",
                 "constant.other.character-class.range.regexp",
-                "punctuation.definition.constant.css"
+                "punctuation.definition.constant.css",
+                "constant.character.escape.python"
             ],
             "settings": {
                 "foreground": "#CE9178"
