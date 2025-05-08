@@ -95,7 +95,7 @@
             ],
             "settings": {
                 "foreground": "#C586C0",
-                "fontStyle": "bold"
+
             }
         },
         // -- PYTHON --
@@ -112,7 +112,7 @@
             ],
             "settings": {
                 "foreground": "#C586C0",
-                "fontStyle": "bold"
+
             }
         },
         // -- TYPESCRIPT --
@@ -156,7 +156,7 @@
             ],
             "settings": {
                 "foreground": "#C586C0",
-                "fontStyle": "bold"
+
             }
         },
         // -- JAVASCRIPT --
@@ -197,7 +197,7 @@
             ],
             "settings": {
                 "foreground": "#C586C0",
-                "fontStyle": "bold"
+
             }
         },
         // -- CSS & HTML & XML --
@@ -250,7 +250,7 @@
             ],
             "settings": {
                 "foreground": "#C586C0",
-                "fontStyle": "bold"
+
             }
         },
         // -- YAML --
@@ -260,7 +260,7 @@
             ],
             "settings": {
                 "foreground": "#C586C0",
-                "fontStyle": "bold"
+
             }
         },
         // -- MAKEFILE
@@ -309,7 +309,7 @@
             ],
             "settings": {
                 "foreground": "#C586C0",
-                "fontStyle": "bold"
+
             }
         },
         {
@@ -340,7 +340,7 @@
             ],
             "settings": {
                 "foreground": "#C586C0",
-                "fontStyle": "bold"
+
             }
         },
         // -- GROOVY -- 
@@ -354,7 +354,7 @@
             ],
             "settings": {
                 "foreground": "#C586C0",
-                "fontStyle": "bold"
+
             }
         },
         // -- CPP -- 
@@ -407,7 +407,7 @@
             ],
             "settings": {
                 "foreground": "#C586C0",
-                "fontStyle": "bold"
+
             }
         },
         // -- C -- 
@@ -421,7 +421,7 @@
             ],
             "settings": {
                 "foreground": "#C586C0",
-                "fontStyle": "bold"
+
             }
         },
         // -- C# -- 
@@ -446,7 +446,7 @@
             ],
             "settings": {
                 "foreground": "#C586C0",
-                "fontStyle": "bold"
+
             }
         },
         // -- KOTLIN -- 
@@ -458,7 +458,7 @@
             ],
             "settings": {
                 "foreground": "#C586C0",
-                "fontStyle": "bold"
+
             }
         },
         // -- KOTLIN -- 
@@ -470,7 +470,7 @@
             ],
             "settings": {
                 "foreground": "#C586C0",
-                "fontStyle": "bold"
+
             }
         },
         // -- INI -- 
@@ -490,7 +490,7 @@
             ],
             "settings": {
                 "foreground": "#C586C0",
-                "fontStyle": "bold"
+
             }
         },
         // -- LUA -- 
@@ -501,7 +501,7 @@
             ],
             "settings": {
                 "foreground": "#C586C0",
-                "fontStyle": "bold"
+
             }
         },
         // -- SWIFT -- 
@@ -515,7 +515,7 @@
             ],
             "settings": {
                 "foreground": "#C586C0",
-                "fontStyle": "bold"
+
             }
         },
         // -- OBJECTIVE-C -- 
@@ -531,7 +531,7 @@
             ],
             "settings": {
                 "foreground": "#C586C0",
-                "fontStyle": "bold"
+
             }
         },
         // -- R -- 
@@ -541,7 +541,7 @@
             ],
             "settings": {
                 "foreground": "#C586C0",
-                "fontStyle": "bold"
+
             }
         },
         // -- RUBY -- 
@@ -551,7 +551,7 @@
             ],
             "settings": {
                 "foreground": "#C586C0",
-                "fontStyle": "bold"
+
             }
         },
         // -- PHP --
@@ -564,7 +564,7 @@
             ],
             "settings": {
                 "foreground": "#C586C0",
-                "fontStyle": "bold"
+
             }
         },
         {
@@ -588,7 +588,7 @@
             ],
             "settings": {
                 "foreground": "#C586C0",
-                "fontStyle": "bold"
+
             }
         },
     ],
