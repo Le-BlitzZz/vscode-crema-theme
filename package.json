@@ -2,7 +2,7 @@
   "name": "vscode-crema-theme",
   "displayName": "Crema",
   "description": "☕ A warm minimal brown theme for daily code brew",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "publisher": "Le-BlitzZz",
   "keywords": [
     "crema",
@@ -34,7 +34,7 @@
       {
         "label": "Crema",
         "uiTheme": "vs-dark",
-        "path": "./themes/crema-Color-theme.json"
+        "path": "./themes/crema.json"
       },
       {
         "label": "Crema Minimal",
