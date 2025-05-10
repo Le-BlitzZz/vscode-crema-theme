@@ -32,7 +32,8 @@
                 "constant.other.character-class.regexp",
                 "constant.other.character-class.range.regexp",
                 "punctuation.definition.constant.css",
-                "constant.character.escape.python"
+                "constant.character.escape.python",
+                "string.interpolated.makefile"
             ],
             "settings": {
                 "foreground": "#CE9178"
@@ -263,7 +264,7 @@
         // -- MAKEFILE
         {
             "scope": [
-                "string.interpolated.makefile",
+                // "string.interpolated.makefile",
                 "keyword.control.@.makefile"
             ],
             "settings": {
@@ -744,7 +745,7 @@
             "scope": [
                 "entity.name.function.decorator",
                 "punctuation.definition.decorator",
-                "meta.function.decorator.python"
+                "meta.function.decorator.python",
             ],
             "settings": {
                 "foreground": "#4EC9B0"
@@ -790,8 +791,6 @@
         {
             "scope": [
                 "storage.type.sql",
-                "storage.type.class.jsdoc",
-                "punctuation.definition.block.tag.jsdoc",
                 "keyword.control.anchor.regexp",
                 "storage.type.interface.js",
                 "storage.type.enum.js",
@@ -799,6 +798,16 @@
             ],
             "settings": {
                 "foreground": "#C586C0"
+            }
+        },
+        {
+            "scope": [
+                "storage.type.class.jsdoc",
+                "punctuation.definition.block.tag.jsdoc",
+                "keyword.other.documentation.javadoc.java"
+            ],
+            "settings": {
+                "foreground": "#db6473"
             }
         },
         // -- CSS --
@@ -862,6 +871,14 @@
         // == MAKEFILE == 
         {
             "scope": [
+                "support.function.target.PHONY.makefile"
+            ],
+            "settings": {
+                "foreground": "#E4AEAD"
+            }
+        },
+        {
+            "scope": [
                 "entity.name.function.target.makefile",
                 "entity.other.attribute-name"
             ],
@@ -873,7 +890,7 @@
             "scope": [
                 "entity.name.type.instance.jsdoc",
                 "variable.other.jsdoc",
-                "constant.other.character-class.range.regexp"
+                "constant.other.character-class.range.regexp",
             ],
             "settings": {
                 "foreground": "#cccccc"
@@ -903,9 +920,61 @@
         },
         {
             "scope": [
+                "constant.character.entity.numeric.hexadecimal.html",
+                "constant.character.entity.named.Alpha.html",
+                "punctuation.definition.entity.html",
+                "constant.character.entity.named.nbsp.html",
+                "punctuation.definition.constant.xml",
+                "punctuation.definition.entity.xml",
+                "constant.character.entity.xml",
             ],
             "settings": {
-                "foreground": "#e2c08d"
+                "foreground": "#AFBF7E"
+            }
+        },
+        {
+            "scope": [
+                "text.html punctuation",
+                "punctuation.definition.tag.xml",
+                "punctuation.definition.block.sequence.item.yaml"
+            ],
+            "settings": {
+                "foreground": "#79BBD4"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.tag.yaml"
+            ],
+            "settings": {
+                "foreground": "#C586C0"
+            }
+        },
+        {
+            "scope": [
+                "source.yaml string.unquoted"
+            ],
+            "settings": {
+                "foreground": "#cccccc"
+            }
+        },
+        // -- JAVA -- 
+        {
+            "scope": [
+                "punctuation.definition.annotation.java",
+                "storage.type.annotation.java"
+            ],
+            "settings": {
+                "foreground": "#BDA78F"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.function.java",
+                
+            ],
+            "settings": {
+                "foreground": "#569CD6"
             }
         },
         
@@ -918,7 +987,7 @@
         "variable.readonly.defaultLibrary:go": "#C586C0",
         "type.interface:go": "#96BBE2",
         "type.struct:go": "#ad82e4",
-        "namespace:go": "#4EC9B0",
+        "namespace": "#4EC9B0",
         "type": "#BDA78F",
         "variable.readonly:go": "#e2c08d",
         "property.declaration.builtin:python": "#e2c08d",
@@ -937,6 +1006,8 @@
         "magicFunction": "#75B4D2",
         "variable.defaultLibrary:javascript": "#4EC9B0",
         "variable.defaultLibrary:typescript": "#4EC9B0",
+        "number": "#CE9178",
+        "operator": "#79BBD4",
         // "property.declaration.static": "#e2c08d",
     },
     "colors": {
