@@ -682,7 +682,7 @@
         },
         {
             "scope": [
-                "source.python variable.parameter",
+                "variable.parameter.function-call.python",
             ],
             "settings": {
                 "foreground": "#AFBF7E"
@@ -719,7 +719,7 @@
         // -- PYTHON
         {
             "scope": [
-                "meta.attribute.python"
+                // "meta.attribute.python"
             ],
             "settings": {
                 "foreground": "#EA999C"
@@ -977,7 +977,14 @@
                 "foreground": "#569CD6"
             }
         },
-        
+        {
+            "scope": [
+               "variable.language.special.self.python",
+            ],
+            "settings": {
+                "foreground": "#72BE7D"
+            }
+        },
     ],
     "semanticHighlighting": true,
     "semanticTokenColors": {
@@ -1000,7 +1007,7 @@
         "function.decorator": "#4EC9B0",
         "class.decorator": "#4EC9B0",
         "method": "#569CD6",
-        "property.declaration:python": "#EA999C",
+        "property:python": "#EA999C",
         "interface": "#96BBE2",
         "enum": "#ad82e4",
         "magicFunction": "#75B4D2",
