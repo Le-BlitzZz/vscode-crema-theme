@@ -5,7 +5,8 @@
             "scope": [
                 "comment",
                 "punctuation.definition.comment",
-                "punctuation.definition.block.tag.jsdoc"
+                "punctuation.definition.block.tag.jsdoc",
+                "punctuation.accessor.cs"
             ],
             "settings": {
                 "foreground": "#8b8b8b"
@@ -52,7 +53,7 @@
                 "source",
                 "text",
                 // "variable.other.readwrite",
-                "keyword.operator",
+                // "keyword.operator",
                 "keyword.control.anchor.regexp",
                 "keyword.other.js",
                 "keyword.other.ts",
@@ -80,7 +81,8 @@
         },
         {
             "scope": [
-                "keyword",
+                "keyword.control",
+                "keyword.preprocessor",
                 "entity.name.tag",
                 "keyword.other",
                 "constant.language.json",
@@ -401,7 +403,8 @@
                 "keyword.operator.not_eq.cpp",
                 "keyword.operator.sizeof.cpp",
                 "storage.type.extern.cpp",
-                "punctuation.definition.directive.cpp"
+                "punctuation.definition.directive.cpp",
+                "source.cpp storage.modifier"
             ],
             "settings": {
                 "foreground": "#C586C0",
@@ -600,7 +603,28 @@
         },
         {
             "scope": [
-                "keyword.operator",
+                "punctuation.accessor.optional",
+                "keyword.operator.unpacking",
+                "keyword.operator.star",
+                "keyword.operator.redirect",
+                "keyword.operator.heredoc",
+                "keyword.operator.optional",
+                "keyword.operator.assignment",
+                "keyword.operator.ellipsis",
+                "keyword.operator.arithmetic",
+                "keyword.operator.comparison",
+                "keyword.operator.bitwise",
+                "keyword.operator.address",
+                "keyword.operator.increment",
+                "keyword.operator.decrement",
+                "keyword.operator.relational",
+                "keyword.operator.logical",
+                "keyword.operator.quantifier",
+                "keyword.operator.pattern",
+                "keyword.operator.increment-decrement",
+                "keyword.operator.c",
+                "keyword.operator.ternary",
+                "keyword.operator.type",
                 "storage.type.function.arrow.ts",
                 "storage.type.function.arrow.js",
                 "constant.other.ellipsis.python",
@@ -651,6 +675,8 @@
             "scope": [
                 "source.go entity.name.function",
                 "source.go entity.name.function.support",
+                "source.cpp entity.name.function",
+                "source.c entity.name.function"
             ],
             "settings": {
                 "foreground": "#569CD6"
@@ -659,6 +685,7 @@
         {
             "scope": [
                 "variable.other.property.go",
+                "variable.other.object.property.cs"
             ],
             "settings": {
                 "foreground": "#EA999C"
@@ -667,6 +694,7 @@
         {
             "scope": [
                 "constant.language.boolean.go",
+                "punctuation.separator.hash.cs"
             ],
             "settings": {
                 "foreground": "#C586C0"
@@ -719,7 +747,7 @@
         // -- PYTHON
         {
             "scope": [
-                // "meta.attribute.python"
+                "meta.attribute.python"
             ],
             "settings": {
                 "foreground": "#EA999C"
@@ -971,7 +999,8 @@
         {
             "scope": [
                 "entity.name.function.java",
-                
+                "entity.name.function.cs",
+                "source.makefile support.function"
             ],
             "settings": {
                 "foreground": "#569CD6"
@@ -985,6 +1014,27 @@
                 "foreground": "#72BE7D"
             }
         },
+        {
+            "scope": [
+               "variable.other.object.cs",
+               "meta.interpolation.cs"
+            ],
+            "settings": {
+                "foreground": "#cccccc"
+            }
+        },
+        {
+            "scope": [
+               "source.go keyword",
+               "source.cs keyword",
+               "source.python keyword",
+               "source.js keyword",
+               "source.ts keyword",
+            ],
+            "settings": {
+                "foreground": "#C586C0"
+            }
+        },
     ],
     "semanticHighlighting": true,
     "semanticTokenColors": {
@@ -994,8 +1044,11 @@
         "variable.readonly.defaultLibrary:go": "#C586C0",
         "type.interface:go": "#96BBE2",
         "type.struct:go": "#ad82e4",
+        "struct:csharp": "#ad82e4",
         "namespace": "#4EC9B0",
         "type": "#BDA78F",
+        "type:cpp": "#ad82e4",
+        "type:c": "#ad82e4",
         "variable.readonly:go": "#e2c08d",
         "property.declaration.builtin:python": "#e2c08d",
         "selfParameter": "#72BE7D",
@@ -1007,15 +1060,25 @@
         "function.decorator": "#4EC9B0",
         "class.decorator": "#4EC9B0",
         "method": "#569CD6",
-        "property:python": "#EA999C",
+        "property.declaration:python": "#EA999C",
         "interface": "#96BBE2",
         "enum": "#ad82e4",
         "magicFunction": "#75B4D2",
         "variable.defaultLibrary:javascript": "#4EC9B0",
         "variable.defaultLibrary:typescript": "#4EC9B0",
         "number": "#CE9178",
-        "operator": "#79BBD4",
+        "operator:dockerfile": "#79BBD4",
+        "field:csharp": "#EA999C",
+        "enumMember:csharp": "#e2c08d",
+        "enumMember": "#e2c08d",
+        "property:csharp": "#EA999C",
+        "field.static:csharp": "#e2c08d",
+        "constant.static:csharp": "#e2c08d",
+        "property.static:cpp": "#e2c08d",
+        "property.static:javascript": "#e2c08d",
+        "property.static:typescript": "#e2c08d",
         // "property.declaration.static": "#e2c08d",
+        "variable.typeHint:python": "#ad82e4",
     },
     "colors": {
         "activityBar.activeBackground": "#00000000",
@@ -1135,9 +1198,9 @@
         "editorBracketHighlight.foreground1": "#db6473",
         "editorBracketHighlight.foreground2": "#4EC9B0",
         "editorBracketHighlight.foreground3": "#ad82e4",
-        "editorBracketHighlight.foreground4": "#CE9178",
-        "editorBracketHighlight.foreground5": "#75B4D2",
-        "editorBracketHighlight.foreground6": "#C586C0",
+        "editorBracketHighlight.foreground4": "#f0a071",
+        // "editorBracketHighlight.foreground5": "#75B4D2",
+        // "editorBracketHighlight.foreground6": "#C586C0",
         "editorBracketHighlight.unexpectedBracket.foreground": "#8b8b8b",
         "editorBracketMatch.background": "#8b8b8b1a",
         "editorBracketMatch.border": "#8b8b8b",
