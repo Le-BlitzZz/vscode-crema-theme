@@ -1,5 +1,5 @@
 {
-    "name": "Crema Minimal",
+    "name": "Crema",
     "tokenColors": [
         {
             "scope": [
@@ -10,14 +10,6 @@
             ],
             "settings": {
                 "foreground": "#8b8b8b"
-            }
-        },
-        {
-            "scope": [
-                "string.unquoted.go.sum"
-            ],
-            "settings": {
-                "foreground": "#cccccc"
             }
         },
         {
@@ -42,7 +34,8 @@
         },
         {
             "scope": [
-                "constant.numeric"
+                "constant.numeric",
+                "constant.language.go.mod"
             ],
             "settings": {
                 "foreground": "#CE9178"
@@ -69,7 +62,7 @@
                 "constant.other.option",
                 "string.unquoted.argument.shell",
                 "punctuation.definition.string.heredoc.delimiter.shell",
-                "string.unquoted.go.mod",
+                // "string.unquoted.go.mod",
                 "string.quoted.double.dockerfile",
                 "string.regexp",
                 "variable.parameter.positional.shell"
@@ -774,6 +767,8 @@
                 "entity.name.function.decorator",
                 "punctuation.definition.decorator",
                 "meta.function.decorator.python",
+                "constant.language.go.mod",
+                "constant.language.go.sum"
             ],
             "settings": {
                 "foreground": "#4EC9B0"
@@ -1030,6 +1025,7 @@
                "source.python keyword",
                "source.js keyword",
                "source.ts keyword",
+               "keyword.go.mod"
             ],
             "settings": {
                 "foreground": "#C586C0"
