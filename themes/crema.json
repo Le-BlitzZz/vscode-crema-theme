@@ -1079,6 +1079,7 @@
         "property.static:typescript": "#e2c08d",
         // "property.declaration.static": "#e2c08d",
         "variable.typeHint:python": "#ad82e4",
+        "keyword.overridden": "#C586C0",
     },
     "colors": {
         "activityBar.activeBackground": "#00000000",
