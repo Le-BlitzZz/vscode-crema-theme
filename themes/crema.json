@@ -657,7 +657,8 @@
             "scope": [
                 "constant.character.escape",
                 "constant.character.escape.python",
-                "storage.type.format.python"
+                "storage.type.format.python",
+                "constant.other.placeholder.go"
             ],
             "settings": {
                 "foreground": "#f0a071",
