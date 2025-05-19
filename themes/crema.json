@@ -625,7 +625,8 @@
                 "punctuation.definition.alias.yaml",
                 "keyword.control.flow.block-scalar.literal.yaml",
                 "storage.modifier.chomping-indicator.yaml",
-                "keyword.control.flow.block-scalar.folded.yaml"
+                "keyword.control.flow.block-scalar.folded.yaml",
+                "keyword.operator.channel.go"
             ],
             "settings": {
                 "foreground": "#79bbd4",
@@ -688,7 +689,17 @@
         {
             "scope": [
                 "constant.language.boolean.go",
-                "punctuation.separator.hash.cs"
+                "punctuation.separator.hash.cs",
+                "storage.type.error.go",
+                "constant.language.null.go",
+                "storage.type.numeric.go",
+                "entity.name.type.any.go",
+                "storage.type.string.go",
+                "storage.type.boolean.go",
+                "storage.type.uintptr.go",
+                "storage.type.byte.go",
+                "storage.type.rune.go",
+                "entity.name.type.comparable.go"
             ],
             "settings": {
                 "foreground": "#C586C0"
@@ -1035,6 +1046,7 @@
     ],
     "semanticHighlighting": true,
     "semanticTokenColors": {
+        "typeParameter:go": "#cccccc",
         "parameter": "#AFBF7E",
         "type.defaultLibrary:go": "#C586C0",
         "type.defaultLibrary.interface:go": "#C586C0",
