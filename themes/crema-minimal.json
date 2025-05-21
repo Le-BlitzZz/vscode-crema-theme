@@ -889,7 +889,7 @@
         "settings.textInputBackground": "#3f3f3f",
         "settings.textInputBorder": "#00000000",
         "sideBar.background": "#181818",
-        "sideBar.border": null,
+        "sideBar.border": "#1f1f1f",
         "sideBar.dropBackground": "#cccccc33",
         "sideBar.foreground": "#cccccc",
         "sideBarSectionHeader.background": "#181818",
