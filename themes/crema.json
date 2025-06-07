@@ -1046,7 +1046,7 @@
     ],
     "semanticHighlighting": true,
     "semanticTokenColors": {
-        "typeParameter:go": "#cccccc",
+        "typeParameter:go": "#4EC9B0",
         "parameter": "#AFBF7E",
         "type.defaultLibrary:go": "#C586C0",
         "type.defaultLibrary.interface:go": "#C586C0",
