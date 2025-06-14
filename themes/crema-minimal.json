@@ -3,6 +3,21 @@
     "tokenColors": [
         {
             "scope": [
+                "storage.type.contract",
+                "storage.modifier.is",
+                "storage.type.modifier.access",
+                "storage.type.constructor",
+                "storage.type.function",
+                "storage.type.modifier.extendedscope",
+                "variable.language.super",
+                // "support.type.primitive",
+            ],
+            "settings": {
+                "foreground": "#C586C0"
+            }
+        },
+        {
+            "scope": [
                 "comment",
                 "punctuation.definition.comment",
                 "punctuation.definition.block.tag.jsdoc"

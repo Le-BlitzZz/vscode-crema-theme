@@ -3,6 +3,47 @@
     "tokenColors": [
         {
             "scope": [
+                "constant.other.pragma"
+            ],
+            "settings": {
+                "foreground": "#4EC9B0"
+            }
+        },
+        {
+            "scope": [
+                "keyword.operator.logic"
+            ],
+            "settings": {
+                "foreground": "#79bbd4"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.function",
+                "entity.name.type.contract"
+            ],
+            "settings": {
+                "foreground": "#569CD6"
+            }
+        },
+        {
+            "scope": [
+                "storage.type.contract",
+                "storage.modifier.is",
+                "storage.type.modifier.access",
+                "storage.type.constructor",
+                "storage.type.function",
+                "storage.type.modifier.extendedscope",
+                "variable.language.super",
+                "support.type.primitive",
+                "keyword.other.definition.ini"
+            ],
+            "settings": {
+                "foreground": "#C586C0"
+            }
+        },
+        {
+            "scope": [
                 "comment",
                 "punctuation.definition.comment",
                 "punctuation.definition.block.tag.jsdoc",
@@ -14,6 +55,7 @@
         },
         {
             "scope": [
+                "keyword.other.unit.hexadecimal",
                 "constant.numeric",
                 "string.quoted",
                 "string.template",
@@ -470,7 +512,6 @@
         // -- INI -- 
         {
             "scope": [
-                "keyword.other.definition.ini",
                 "source.ini string.quoted",
                 "source.ini punctuation.definition.string"
             ],
@@ -1048,6 +1089,9 @@
     "semanticTokenColors": {
         "typeParameter:go": "#4EC9B0",
         "parameter": "#AFBF7E",
+        "parameter.definition:go": "#AFBF7E",
+        "parameter.definition.signature:go": "#AFBF7E",
+        "parameter.signature:go": "#569CD6",
         "type.defaultLibrary:go": "#C586C0",
         "type.defaultLibrary.interface:go": "#C586C0",
         "variable.readonly.defaultLibrary:go": "#C586C0",
