@@ -1,5 +1,6 @@
 export const palettes = {
 	"Crema": {
+		// terminal
 		ansiBlack: { hex: "#51576d" },
 		ansiBlue: { hex: "#8caaee" },
 		ansiBrightBlack: { hex: "#626880" },
@@ -16,7 +17,7 @@ export const palettes = {
 		ansiRed: { hex: "#e78284" },
 		ansiWhite: { hex: "#a5adce" },
 		ansiYellow: { hex: "#e5c890" },
-	
+		// non-neutral
 		fawn: { hex: "#BDA78F" },
 		brown: { hex: "#CE9178" },
 		sage: { hex: "#AFBF7E" },
@@ -36,7 +37,7 @@ export const palettes = {
 		sapphire: { hex: "#75b4d2" },
 		blue: { hex: "#569CD6" },
 		lavender: { hex: "#a8a5f4" },
-	
+		// neutral
 		text: { hex: "#cccccc" },
 		subtext1: { hex: "#b6b6b6" },
 		subtext0: { hex: "#a0a0a0" },
@@ -69,39 +70,39 @@ export const palettes = {
 		ansiWhite: { hex: "#acb0be" },
 		ansiYellow: { hex: "#df8e1d" },
 
-		fawn: { hex: "#67533d" },
-		brown: { hex: "#844830" },
-		sage: { hex: "#515d2e" },
-		steel: { hex: "#285b91" },
-		magenta: { hex: "#a22653" },
-		rosewater: { hex: "#8a422f" },
-		flamingo:  { hex: "#9a3533" },
+			// non-neutral accents
+			fawn:     { hex: "#b27a00" },
+  brown:    { hex: "#a52a0f" },
+  sage:     { hex: "#5a8300" },
+  steel:    { hex: "#0066c0" },
+  magenta:  { hex: "#a300c8" },
+  rosewater:{ hex: "#c44300" },
+  flamingo: { hex: "#c7382c" },
+  pink:     { hex: "#a100c0" },
+  mauve:    { hex: "#6830f0" },
+  red:      { hex: "#c73600" },
+  maroon:   { hex: "#b02312" },
+  peach:    { hex: "#d85a10" },
+  yellow:   { hex: "#c38b00" },
+  green:    { hex: "#308600" },
+  teal:     { hex: "#267a9a" },
+  sky:      { hex: "#0077c0" },
+  sapphire: { hex: "#006bb0" },
+  blue:     { hex: "#003fe6" },
+  lavender: { hex: "#6c64f0" },
 
-		pink: { hex: "#843f7e" },
-		mauve: { hex: "#712cca" },
-		red: { hex: "#a62737" },
-		maroon: { hex: "#aa2328" },
-		peach: { hex: "#903f0f" },
-		yellow: { hex: "#73501d" },
-		green: { hex: "#2d6235" },
-		teal: { hex: "#1e6254" },
-		sky: { hex: "#255f75" },
-		sapphire: { hex: "#275e78" },
-		blue: { hex: "#225c8c" },
-		lavender: { hex: "#3e38e7" },
-
-		text:       { hex: "#222222" },
-		subtext1:   { hex: "#383838" },
-		subtext0:   { hex: "#484848" },
-		overlay2:   { hex: "#636363" },
-		overlay1:   { hex: "#777777" },
-		overlay0:   { hex: "#8b8b8b" },
-		surface2:   { hex: "#9c9c9c" },
-		surface1:   { hex: "#afafaf" },
-		surface0:   { hex: "#c0c0c0" },
-		mantle:       { hex: "#cfcfcf" },
-		base:     { hex: "#d6d6d6" },
-		crust:      { hex: "#dbdbdb" }
+		text: { hex: "#333333" },
+		subtext1: { hex: "#494949" },
+		subtext0: { hex: "#5f5f5f" },
+		overlay2: { hex: "#747474" },
+		overlay1: { hex: "#888888" },
+		overlay0: { hex: "#9c9c9c" },
+		surface2: { hex: "#adadad" },
+		surface1: { hex: "#c0c0c0" },
+		surface0: { hex: "#d1d1d1" },
+		base: { hex: "#e0e0e0" },
+		mantle: { hex: "#e7e7e7" },
+		crust: { hex: "#ececec" }
 	},
 	// "Crema Ice Test": {
 	// 	// DONE

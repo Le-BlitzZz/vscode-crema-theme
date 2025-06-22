@@ -1241,7 +1241,7 @@
         "editor.hoverHighlightBackground": "{{sky}}40",
         "editor.lineHighlightBackground": "{{text}}12",
         "editor.lineHighlightBorder": "{{transparent}}",
-        // "editor.rangeHighlightBackground": "{{sky}}40",
+        "editor.rangeHighlightBackground": "{{text}}12",
         "editor.rangeHighlightBorder": "{{transparent}}",
         "editor.selectionBackground": "{{isIce (opacity overlay2 0.3) (opacity overlay2 0.25)}}",
         "editor.selectionHighlightBackground": "{{overlay2}}33",
