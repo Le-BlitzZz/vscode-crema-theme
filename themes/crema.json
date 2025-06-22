@@ -1241,7 +1241,7 @@
         "editor.hoverHighlightBackground": "#79BBD440",
         "editor.lineHighlightBackground": "#CCCCCC12",
         "editor.lineHighlightBorder": "#00000000",
-        // "editor.rangeHighlightBackground": "#79BBD440",
+        "editor.rangeHighlightBackground": "#cccccc12",
         "editor.rangeHighlightBorder": "#00000000",
         "editor.selectionBackground": "#8b8b8b40",
         "editor.selectionHighlightBackground": "#8B8B8B33",
