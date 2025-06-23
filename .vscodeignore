@@ -2,3 +2,26 @@
 .vscode-test/**
 .gitignore
 vsc-extension-quickstart.md
+
+# Development files
+generate/**
+
+# Build artifacts
+*.vsix
+
+# Git files
+.git/**
+.gitignore
+
+# IDE files
+.vscode/**
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Other development files
+node_modules/**
+
+samples/**

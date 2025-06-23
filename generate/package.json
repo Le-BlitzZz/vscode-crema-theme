@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "tinycolor2": "^1.6.0"
+  }
+}
