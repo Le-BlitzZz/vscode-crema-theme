@@ -40,7 +40,21 @@
         "label": "Crema Minimal",
         "uiTheme": "vs-dark",
         "path": "./themes/crema-minimal.json"
+      },
+      {
+        "label": "Crema Ice",
+        "uiTheme": "vs",
+        "path": "./themes/crema-ice.json"
+      },
+      {
+        "label": "Crema Ice Minimal",
+        "uiTheme": "vs",
+        "path": "./themes/crema-ice-minimal.json"
       }
     ]
+  },
+  "dependencies": {
+    "handlebars": "4.7.8",
+    "tinycolor2": "^1.6.0"
   }
 }
