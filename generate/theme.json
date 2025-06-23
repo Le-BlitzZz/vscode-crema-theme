@@ -1012,7 +1012,13 @@
             "scope": [
                 "text.html punctuation",
                 "punctuation.definition.tag.xml",
-                "punctuation.definition.block.sequence.item.yaml"
+                "punctuation.definition.block.sequence.item.yaml",
+                "punctuation.separator.statement.and.shell",
+                "keyword.operator.pipe.shell",
+                "keyword.operator.herestring.shell",
+                "punctuation.separator.regex.alternation.shell",
+                "punctuation.separator.statement.background.shell",
+                "keyword.operator.glob.shell"
             ],
             "settings": {
                 "foreground": "{{sky}}"
