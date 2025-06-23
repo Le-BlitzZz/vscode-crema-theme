@@ -1,8 +1,8 @@
 {
   "name": "vscode-crema-theme",
   "displayName": "Crema",
-  "description": "☕ A warm minimal brown theme for daily code brew",
-  "version": "1.0.28",
+  "description": "☕ Theme for daily code brew",
+  "version": "1.0.29",
   "publisher": "Le-BlitzZz",
   "keywords": [
     "crema",
@@ -17,7 +17,12 @@
     "crema theme",
     "creme theme",
     "brown",
-    "crema minimal"
+    "crema minimal",
+    "crema ice",
+    "crema ice minimal",
+    "light theme",
+    "creme ice",
+    "ice cream"
   ],
   "repository": {
     "type": "git",

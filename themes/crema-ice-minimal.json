@@ -325,7 +325,7 @@
                 "markup.underline.link"
             ],
             "settings": {
-                "foreground": "#A300C8"
+                "foreground": "#E0005D"
             }
         },
         {
@@ -335,7 +335,7 @@
                 "constant.other.reference.link.markdown"
             ],
             "settings": {
-                "foreground": "#C7382C"
+                "foreground": "#DD7878"
             }
         },
         // -- JAVA -- 
@@ -954,10 +954,10 @@
         "symbolIcon.numberForeground": "#D85A10",
         "symbolIcon.objectForeground": "#DF8E1D",
         "symbolIcon.operatorForeground": "#267A9A",
-        "symbolIcon.packageForeground": "#C7382C",
+        "symbolIcon.packageForeground": "#DD7878",
         "symbolIcon.propertyForeground": "#E64553",
         "symbolIcon.referenceForeground": "#DF8E1D",
-        "symbolIcon.snippetForeground": "#C7382C",
+        "symbolIcon.snippetForeground": "#DD7878",
         "symbolIcon.stringForeground": "#007100",
         "symbolIcon.structForeground": "#267A9A",
         "symbolIcon.textForeground": "#333333",
@@ -1045,8 +1045,8 @@
         "textBlockQuote.background": "#E0E0E0",
         "textBlockQuote.border": "#ECECEC",
         "textCodeBlock.background": "#E0E0E0",
-        "textLink.activeForeground": "#C7382C",
-        "textLink.foreground": "#A300C8",
+        "textLink.activeForeground": "#DD7878",
+        "textLink.foreground": "#E0005D",
         "textPreformat.foreground": "#333333",
         "textSeparator.foreground": "#333333",
         "titleBar.activeBackground": "#E0E0E0",
