@@ -52,7 +52,7 @@ export const palettes = {
 		crust: { hex: "#131313" }
 	},
 	"Crema Ice": {
-	// DONE
+		// terminal
 		ansiBlack: { hex: "#5c5f77" },
 		ansiBlue: { hex: "#1e66f5" },
 		ansiBrightBlack: { hex: "#6c6f85" },
@@ -69,28 +69,27 @@ export const palettes = {
 		ansiRed: { hex: "#d20f39" },
 		ansiWhite: { hex: "#acb0be" },
 		ansiYellow: { hex: "#df8e1d" },
-
-			// non-neutral accents
-			fawn:     { hex: "#b27a00" },
-  brown:    { hex: "#a52a0f" },
-  sage:     { hex: "#5a8300" },
-  steel:    { hex: "#0066c0" },
-  magenta:  { hex: "#a300c8" },
-  rosewater:{ hex: "#c44300" },
-  flamingo: { hex: "#c7382c" },
-  pink:     { hex: "#a100c0" },
-  mauve:    { hex: "#6830f0" },
-  red:      { hex: "#c73600" },
-  maroon:   { hex: "#b02312" },
-  peach:    { hex: "#d85a10" },
-  yellow:   { hex: "#c38b00" },
-  green:    { hex: "#308600" },
-  teal:     { hex: "#267a9a" },
-  sky:      { hex: "#0077c0" },
-  sapphire: { hex: "#006bb0" },
-  blue:     { hex: "#003fe6" },
-  lavender: { hex: "#6c64f0" },
-
+		// non-neutral
+		fawn: { hex: "#b27a00" },
+		brown: { hex: "#a52a0f" },
+		sage: { hex: "#40a02b" },
+		steel: { hex: "#0066c0" },
+		magenta: { hex: "#a300c8" },
+		rosewater: { hex: "#c44300" },
+		flamingo: { hex: "#c7382c" },
+		pink: { hex: "#a100c0" },
+		mauve: { hex: "#8839ef" },
+		red: { hex: "#c73600" },
+		maroon: { hex: "#e64553" },
+		peach: { hex: "#d85a10" },
+		yellow: { hex: "#df8e1d" },
+		green: { hex: "#007100" },
+		teal: { hex: "#267a9a" },
+		sky: { hex: "#04a5e5" },
+		sapphire: { hex: "#006bb0" },
+		blue: { hex: "#003fe6" },
+		lavender: { hex: "#6c64f0" },
+		// neutral
 		text: { hex: "#333333" },
 		subtext1: { hex: "#494949" },
 		subtext0: { hex: "#5f5f5f" },
@@ -100,62 +99,10 @@ export const palettes = {
 		surface2: { hex: "#adadad" },
 		surface1: { hex: "#c0c0c0" },
 		surface0: { hex: "#d1d1d1" },
-		base: { hex: "#e0e0e0" },
-		mantle: { hex: "#e7e7e7" },
+		mantle: { hex: "#e0e0e0" },
+		base: { hex: "#e7e7e7" },
 		crust: { hex: "#ececec" }
-	},
-	// "Crema Ice Test": {
-	// 	// DONE
-	// 	ansiBlack: { hex: "#5c5f77" },
-	// 	ansiBlue: { hex: "#1e66f5" },
-	// 	ansiBrightBlack: { hex: "#6c6f85" },
-	// 	ansiBrightBlue: { hex: "#456eff" },
-	// 	ansiBrightCyan: { hex: "#2d9fa8" },
-	// 	ansiBrightGreen: { hex: "#49af3d" },
-	// 	ansiBrightMagenta: { hex: "#fe85d8" },
-	// 	ansiBrightRed: { hex: "#de293e" },
-	// 	ansiBrightWhite: { hex: "#bcc0cc" },
-	// 	ansiBrightYellow: { hex: "#eea02d" },
-	// 	ansiCyan: { hex: "#179299" },
-	// 	ansiGreen: { hex: "#40a02b" },
-	// 	ansiMagenta: { hex: "#ea76cb" },
-	// 	ansiRed: { hex: "#d20f39" },
-	// 	ansiWhite: { hex: "#acb0be" },
-	// 	ansiYellow: { hex: "#df8e1d" },
-
-	// 	fawn: { hex: "#BDA78F" },
-	// 	brown: { hex: "#A31515" }, // done
-	// 	sage: { hex: "#AFBF7E" },
-	// 	steel: { hex: "#96BBE2" },
-	// 	magenta: { hex: "#D95D8A" },
-	// 	rosewater: { hex: "#E7C2B8" },
-	// 	flamingo:  { hex: "#E4AEAD" },
-	// 	pink: { hex: "#AF00DB" }, // done
-	// 	mauve: { hex: "#AD82E4" },
-	// 	red: { hex: "#DB6473" },
-	// 	maroon: { hex: "#EA999C" },
-	// 	peach: { hex: "#F0A071" },
-	// 	yellow: { hex: "#E2C08D" },
-	// 	green: { hex: "#72BE7D" },
-	// 	teal: { hex: "#267F99" }, // done
-	// 	sky: { hex: "#79BBD4" },
-	// 	sapphire: { hex: "#75B4D2" },
-	// 	blue: { hex: "#0000FF" }, // done
-	// 	lavender: { hex: "#A8A5F4" },
-
-	// 	text: { hex: "#4B4B4B" },
-	// 	subtext1: { hex: "#5A5A5A" },
-	// 	subtext0: { hex: "#696969" },
-	// 	overlay2: { hex: "#767676" },
-	// 	overlay1: { hex: "#858585" },
-	// 	overlay0: { hex: "#959595" },
-	// 	surface2: { hex: "#B2B2B2" },
-	// 	surface1: { hex: "#B2B2B2" },
-	// 	surface0: { hex: "#C0C0C0" },
-	// 	base: { hex: "#DFDFDF" },
-	// 	mantle: { hex: "#D8D8D8" },
-	// 	crust: { hex: "#CFCFCF" },
-	// }
+	}
 }
 
 export * as path from "https://deno.land/std@0.177.0/path/mod.ts";
