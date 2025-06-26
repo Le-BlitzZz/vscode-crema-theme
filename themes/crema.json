@@ -741,6 +741,7 @@
                 // "storage.type.byte.go",
                 // "storage.type.rune.go",
                 // "entity.name.type.comparable.go",
+                "storage.modifier.export.shell",
             ],
             "settings": {
                 "foreground": "#C586C0"
@@ -1034,7 +1035,8 @@
         },
         {
             "scope": [
-                "source.yaml string.unquoted"
+                "source.yaml string.unquoted",
+                "keyword.operator.logical.shell"
             ],
             "settings": {
                 "foreground": "#CCCCCC"

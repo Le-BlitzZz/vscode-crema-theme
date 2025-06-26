@@ -205,7 +205,8 @@
                 "keyword.operator.expression.in.js",
                 "keyword.operator.expression.of.js",
                 "keyword.operator.expression.infer.js",
-                "storage.type.property.js"
+                "storage.type.property.js",
+                "storage.modifier.export.shell"
             ],
             "settings": {
                 "foreground": "#A100C0",
