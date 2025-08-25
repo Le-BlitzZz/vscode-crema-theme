@@ -47,7 +47,7 @@
                 "comment",
                 "punctuation.definition.comment",
                 "punctuation.definition.block.tag.jsdoc",
-                "punctuation.accessor.cs"
+                "punctuation.accessor.cs"                
             ],
             "settings": {
                 "foreground": "#8B8B8B"
@@ -294,7 +294,7 @@
                 "constant.language.boolean.yaml"
             ],
             "settings": {
-                "foreground": "#C586C0",
+                "foreground": "#CE9178",
 
             }
         },
@@ -881,7 +881,8 @@
             "scope": [
                 "storage.type.class.jsdoc",
                 "punctuation.definition.block.tag.jsdoc",
-                "keyword.other.documentation.javadoc.java"
+                "keyword.other.documentation.javadoc.java",
+                "go.mod"
             ],
             "settings": {
                 "foreground": "#DB6473"
@@ -1019,7 +1020,9 @@
                 "keyword.operator.herestring.shell",
                 "punctuation.separator.regex.alternation.shell",
                 "punctuation.separator.statement.background.shell",
-                "keyword.operator.glob.shell"
+                "keyword.operator.glob.shell",
+                "punctuation.definition.subshell.single.shell",
+                "operator.go.mod"
             ],
             "settings": {
                 "foreground": "#79BBD4"
@@ -1068,6 +1071,16 @@
             ],
             "settings": {
                 "foreground": "#72BE7D"
+            }
+        },
+        {
+            "scope": [
+               "variable.other.assignment.shell",
+               "variable.other.normal.shell",
+               "variable.parameter.positional.shell"
+            ],
+            "settings": {
+                "foreground": "#AFBF7E"
             }
         },
         {
@@ -1244,7 +1257,7 @@
         "editor.findRangeHighlightBackground": "#3a4e55",
         "editor.findRangeHighlightBorder": "#79BBD433",
         "editor.focusedStackFrameHighlightBackground": "#72BE7D26",
-        "editor.foldBackground": "#569CD624",
+        "editor.foldBackground": "#8B8B8B10",
         "editor.foreground": "#CCCCCC",
         "editor.hoverHighlightBackground": "#79BBD440",
         "editor.lineHighlightBackground": "#CCCCCC12",

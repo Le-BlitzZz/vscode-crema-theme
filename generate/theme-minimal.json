@@ -688,7 +688,7 @@
         "editor.findRangeHighlightBackground": "{{mix base sky 0.3}}",
         "editor.findRangeHighlightBorder": "{{sky}}33",
         "editor.focusedStackFrameHighlightBackground": "{{green}}26",
-        "editor.foldBackground": "{{blue}}24",
+        "editor.foldBackground": "{{overlay2}}10",
         "editor.foreground": "{{text}}",
         "editor.hoverHighlightBackground": "{{sky}}40",
         "editor.lineHighlightBackground": "{{text}}12",

@@ -688,7 +688,7 @@
         "editor.findRangeHighlightBackground": "#3a4e55",
         "editor.findRangeHighlightBorder": "#79BBD433",
         "editor.focusedStackFrameHighlightBackground": "#72BE7D26",
-        "editor.foldBackground": "#569CD624",
+        "editor.foldBackground": "#8B8B8B10",
         "editor.foreground": "#CCCCCC",
         "editor.hoverHighlightBackground": "#79BBD440",
         "editor.lineHighlightBackground": "#CCCCCC12",

@@ -47,7 +47,7 @@
                 "comment",
                 "punctuation.definition.comment",
                 "punctuation.definition.block.tag.jsdoc",
-                "punctuation.accessor.cs"
+                "punctuation.accessor.cs"                
             ],
             "settings": {
                 "foreground": "{{overlay2}}"
@@ -294,7 +294,7 @@
                 "constant.language.boolean.yaml"
             ],
             "settings": {
-                "foreground": "{{pink}}",
+                "foreground": "{{brown}}",
 
             }
         },
@@ -881,7 +881,8 @@
             "scope": [
                 "storage.type.class.jsdoc",
                 "punctuation.definition.block.tag.jsdoc",
-                "keyword.other.documentation.javadoc.java"
+                "keyword.other.documentation.javadoc.java",
+                "go.mod"
             ],
             "settings": {
                 "foreground": "{{red}}"
@@ -1019,7 +1020,9 @@
                 "keyword.operator.herestring.shell",
                 "punctuation.separator.regex.alternation.shell",
                 "punctuation.separator.statement.background.shell",
-                "keyword.operator.glob.shell"
+                "keyword.operator.glob.shell",
+                "punctuation.definition.subshell.single.shell",
+                "operator.go.mod"
             ],
             "settings": {
                 "foreground": "{{sky}}"
@@ -1068,6 +1071,16 @@
             ],
             "settings": {
                 "foreground": "{{green}}"
+            }
+        },
+        {
+            "scope": [
+               "variable.other.assignment.shell",
+               "variable.other.normal.shell",
+               "variable.parameter.positional.shell"
+            ],
+            "settings": {
+                "foreground": "{{sage}}"
             }
         },
         {
@@ -1244,7 +1257,7 @@
         "editor.findRangeHighlightBackground": "{{mix base sky 0.3}}",
         "editor.findRangeHighlightBorder": "{{sky}}33",
         "editor.focusedStackFrameHighlightBackground": "{{green}}26",
-        "editor.foldBackground": "{{blue}}24",
+        "editor.foldBackground": "{{overlay2}}10",
         "editor.foreground": "{{text}}",
         "editor.hoverHighlightBackground": "{{sky}}40",
         "editor.lineHighlightBackground": "{{text}}12",
