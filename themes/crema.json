@@ -1571,7 +1571,7 @@
         "terminal.ansiRed": "#E78284",
         "terminal.ansiWhite": "#A5ADCE",
         "terminal.ansiYellow": "#E5C890",
-        "terminal.border": "#525252",
+        "terminal.border": "#1F1F1F",
         "terminal.dropBackground": "#CCCCCC33",
         "terminal.foreground": "#CCCCCC",
         "terminal.inactiveSelectionBackground": "#8B8B8B20",

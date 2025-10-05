@@ -1002,7 +1002,7 @@
         "terminal.ansiRed": "{{ansiRed}}",
         "terminal.ansiWhite": "{{ansiWhite}}",
         "terminal.ansiYellow": "{{ansiYellow}}",
-        "terminal.border": "{{surface2}}",
+        "terminal.border": "{{base}}",
         "terminal.dropBackground": "{{text}}33",
         "terminal.foreground": "{{text}}",
         "terminal.inactiveSelectionBackground": "{{overlay2}}20",
