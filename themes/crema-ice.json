@@ -1022,7 +1022,10 @@
                 "punctuation.separator.statement.background.shell",
                 "keyword.operator.glob.shell",
                 "punctuation.definition.subshell.single.shell",
-                "operator.go.mod"
+                "operator.go.mod",
+                "punctuation.separator.key-value.makefile",
+                "punctuation.definition.variable.makefile",
+                "keyword.control.@.makefile"
             ],
             "settings": {
                 "foreground": "#04A5E5"
@@ -1297,7 +1300,7 @@
         "editorGutter.foldingControlForeground": "#747474",
         "editorGutter.modifiedBackground": "#003FE6",
         "editorHoverWidget.background": "#E0E0E0",
-        "editorHoverWidget.border": "#ADADAD",
+        "editorHoverWidget.border": "#E7E7E780",
         "editorHoverWidget.foreground": "#333333",
         "editorIndentGuide.activeBackground1": "#888888",
         "editorIndentGuide.background1": "#C0C0C0",
@@ -1393,7 +1396,7 @@
         "listFilterWidget.background": "#C0C0C0",
         "listFilterWidget.noMatchesOutline": "#C73600",
         "listFilterWidget.outline": "#00000000",
-        "menu.background": "#E7E7E7",
+        "menu.background": "#E0E0E0",
         "menu.border": "#E7E7E780",
         "menu.foreground": "#333333",
         "menu.selectionBackground": "#ADADAD",
