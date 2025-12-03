@@ -711,6 +711,13 @@
             "scope": [
                 "source.go entity.name.function",
                 "source.go entity.name.function.support",
+            ],
+            "settings": {
+                "foreground": "{{text}}"
+            }
+        },
+        {
+            "scope": [
                 "source.cpp entity.name.function",
                 "source.c entity.name.function"
             ],
@@ -720,7 +727,14 @@
         },
         {
             "scope": [
-                "variable.other.property.go",
+                "variable.other.property.go"
+            ],
+            "settings": {
+                "foreground": "{{text}}"
+            }
+        },
+        {
+            "scope": [
                 "variable.other.object.property.cs"
             ],
             "settings": {
@@ -1111,11 +1125,11 @@
     ],
     "semanticHighlighting": true,
     "semanticTokenColors": {
-        "typeParameter:go": "{{teal}}",
+        "typeParameter:go": "{{maroon}}",
         "parameter": "{{sage}}",
         "parameter.definition:go": "{{sage}}",
         "parameter.definition.signature:go": "{{sage}}",
-        "parameter.signature:go": "{{blue}}",
+        "parameter.signature:go": "{{green}}",
         "type.defaultLibrary:go": "{{pink}}",
         "type.defaultLibrary.interface:go": "{{pink}}",
         "variable.readonly.defaultLibrary:go": "{{pink}}",
@@ -1329,7 +1343,7 @@
         "editorSuggestWidget.background": "{{mantle}}",
         "editorSuggestWidget.border": "{{surface2}}",
         "editorSuggestWidget.foreground": "{{text}}",
-        "editorSuggestWidget.highlightForeground": "{{overlay0}}",
+        "editorSuggestWidget.highlightForeground": "{{brown}}",
         "editorSuggestWidget.selectedBackground": "{{surface0}}",
         "editorWarning.background": "{{transparent}}",
         "editorWarning.border": "{{transparent}}",
@@ -1387,7 +1401,7 @@
         "list.focusBackground": "{{mantle}}",
         "list.focusForeground": "{{text}}",
         "list.focusOutline": "{{overlay2}}",
-        "list.highlightForeground": "{{overlay0}}",
+        "list.highlightForeground": "{{brown}}",
         "list.hoverBackground": "{{surface0}}80",
         "list.hoverForeground": "{{text}}",
         "list.inactiveSelectionBackground": "{{surface0}}",
@@ -1456,7 +1470,7 @@
         "peekViewTitleDescription.foreground": "{{subtext1}}b3",
         "peekViewTitleLabel.foreground": "{{text}}",
         "pickerGroup.border": "{{text}}",
-        "pickerGroup.foreground": "{{overlay0}}",
+        "pickerGroup.foreground": "{{brown}}",
         "problemsErrorIcon.foreground": "{{red}}",
         "problemsInfoIcon.foreground": "{{blue}}",
         "problemsWarningIcon.foreground": "{{peach}}",

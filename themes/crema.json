@@ -711,6 +711,13 @@
             "scope": [
                 "source.go entity.name.function",
                 "source.go entity.name.function.support",
+            ],
+            "settings": {
+                "foreground": "#CCCCCC"
+            }
+        },
+        {
+            "scope": [
                 "source.cpp entity.name.function",
                 "source.c entity.name.function"
             ],
@@ -720,7 +727,14 @@
         },
         {
             "scope": [
-                "variable.other.property.go",
+                "variable.other.property.go"
+            ],
+            "settings": {
+                "foreground": "#CCCCCC"
+            }
+        },
+        {
+            "scope": [
                 "variable.other.object.property.cs"
             ],
             "settings": {
@@ -1111,11 +1125,11 @@
     ],
     "semanticHighlighting": true,
     "semanticTokenColors": {
-        "typeParameter:go": "#4EC9B0",
+        "typeParameter:go": "#EA999C",
         "parameter": "#AFBF7E",
         "parameter.definition:go": "#AFBF7E",
         "parameter.definition.signature:go": "#AFBF7E",
-        "parameter.signature:go": "#569CD6",
+        "parameter.signature:go": "#72BE7D",
         "type.defaultLibrary:go": "#C586C0",
         "type.defaultLibrary.interface:go": "#C586C0",
         "variable.readonly.defaultLibrary:go": "#C586C0",
@@ -1329,7 +1343,7 @@
         "editorSuggestWidget.background": "#181818",
         "editorSuggestWidget.border": "#525252",
         "editorSuggestWidget.foreground": "#CCCCCC",
-        "editorSuggestWidget.highlightForeground": "#636363",
+        "editorSuggestWidget.highlightForeground": "#CE9178",
         "editorSuggestWidget.selectedBackground": "#2E2E2E",
         "editorWarning.background": "#00000000",
         "editorWarning.border": "#00000000",
@@ -1387,7 +1401,7 @@
         "list.focusBackground": "#181818",
         "list.focusForeground": "#CCCCCC",
         "list.focusOutline": "#8B8B8B",
-        "list.highlightForeground": "#636363",
+        "list.highlightForeground": "#CE9178",
         "list.hoverBackground": "#2E2E2E80",
         "list.hoverForeground": "#CCCCCC",
         "list.inactiveSelectionBackground": "#2E2E2E",
@@ -1456,7 +1470,7 @@
         "peekViewTitleDescription.foreground": "#B6B6B6b3",
         "peekViewTitleLabel.foreground": "#CCCCCC",
         "pickerGroup.border": "#CCCCCC",
-        "pickerGroup.foreground": "#636363",
+        "pickerGroup.foreground": "#CE9178",
         "problemsErrorIcon.foreground": "#DB6473",
         "problemsInfoIcon.foreground": "#569CD6",
         "problemsWarningIcon.foreground": "#F0A071",
