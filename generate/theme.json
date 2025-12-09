@@ -703,7 +703,7 @@
                 "constant.other.placeholder.go"
             ],
             "settings": {
-                "foreground": "{{peach}}",
+                "foreground": "{{brown}}",
             }
         },
         // -- GOLANG COLORED --
@@ -1157,7 +1157,7 @@
         "magicFunction": "{{sapphire}}",
         "variable.defaultLibrary:javascript": "{{teal}}",
         "variable.defaultLibrary:typescript": "{{teal}}",
-        "number": "{{brown}}",
+        "number": "{{flamingo}}",
         "operator:dockerfile": "{{sky}}",
         "field:csharp": "{{maroon}}",
         "enumMember:csharp": "{{yellow}}",
@@ -1171,6 +1171,19 @@
         // "property.declaration.static": "{{yellow}}",
         "variable.typeHint:python": "{{mauve}}",
         "keyword.overridden": "{{pink}}",
+        "type.signature:go": "{{iris}}",
+        "type.defaultLibrary.number:go": "{{pink}}",
+        "type.number:go": "{{flamingo}}",
+        "type.defaultLibrary.string:go": "{{pink}}",
+        "type.string:go": "{{brown}}",
+        "type.defaultLibrary.bool:go": "{{pink}}",
+        "type.bool:go": "{{grey}}",
+        "type.pointer:go": "{{red}}",
+        "type.chan:go": "{{olive}}",
+        "type.map:go": "{{green}}",
+        "type.array:go": "{{peach}}",
+        "type.slice:go": "{{fawn}}",
+        "type:go": "{{text}}",
     },
     "colors": {
         "activityBar.activeBackground": "{{transparent}}",
@@ -1226,7 +1239,7 @@
         "commandCenter.inactiveForeground": "{{subtext1}}",
         "debugConsole.errorForeground": "{{red}}",
         "debugConsole.infoForeground": "{{blue}}",
-        "debugConsole.sourceForeground": "{{rosewater}}",
+        "debugConsole.sourceForeground": "{{text}}",
         "debugConsole.warningForeground": "{{peach}}",
         "debugConsoleInputIcon.foreground": "{{text}}",
         "debugExceptionWidget.background": "{{crust}}",

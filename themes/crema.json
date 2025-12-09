@@ -703,7 +703,7 @@
                 "constant.other.placeholder.go"
             ],
             "settings": {
-                "foreground": "#F0A071",
+                "foreground": "#CE9178",
             }
         },
         // -- GOLANG COLORED --
@@ -738,7 +738,7 @@
                 "variable.other.object.property.cs"
             ],
             "settings": {
-                "foreground": "#EA999C"
+                "foreground": "#E69190"
             }
         },
         {
@@ -811,7 +811,7 @@
                 "meta.attribute.python"
             ],
             "settings": {
-                "foreground": "#EA999C"
+                "foreground": "#E69190"
             }
         },
         {
@@ -1125,7 +1125,7 @@
     ],
     "semanticHighlighting": true,
     "semanticTokenColors": {
-        "typeParameter:go": "#EA999C",
+        "typeParameter:go": "#E69190",
         "parameter": "#AFBF7E",
         "parameter.definition:go": "#AFBF7E",
         "parameter.definition.signature:go": "#AFBF7E",
@@ -1151,18 +1151,18 @@
         "function.decorator": "#4EC9B0",
         "class.decorator": "#4EC9B0",
         "method": "#569CD6",
-        "property.declaration:python": "#EA999C",
+        "property.declaration:python": "#E69190",
         "interface": "#96BBE2",
         "enum": "#AD82E4",
         "magicFunction": "#75B4D2",
         "variable.defaultLibrary:javascript": "#4EC9B0",
         "variable.defaultLibrary:typescript": "#4EC9B0",
-        "number": "#CE9178",
+        "number": "#E4AEAD",
         "operator:dockerfile": "#79BBD4",
-        "field:csharp": "#EA999C",
+        "field:csharp": "#E69190",
         "enumMember:csharp": "#E2C08D",
         "enumMember": "#E2C08D",
-        "property:csharp": "#EA999C",
+        "property:csharp": "#E69190",
         "field.static:csharp": "#E2C08D",
         "constant.static:csharp": "#E2C08D",
         "property.static:cpp": "#E2C08D",
@@ -1171,6 +1171,19 @@
         // "property.declaration.static": "#E2C08D",
         "variable.typeHint:python": "#AD82E4",
         "keyword.overridden": "#C586C0",
+        "type.signature:go": "#7A6CF0",
+        "type.defaultLibrary.number:go": "#C586C0",
+        "type.number:go": "#E4AEAD",
+        "type.defaultLibrary.string:go": "#C586C0",
+        "type.string:go": "#CE9178",
+        "type.defaultLibrary.bool:go": "#C586C0",
+        "type.bool:go": "#AAAAAA",
+        "type.pointer:go": "#DB6473",
+        "type.chan:go": "#95AA47",
+        "type.map:go": "#72BE7D",
+        "type.array:go": "#F0A071",
+        "type.slice:go": "#BDA78F",
+        "type:go": "#CCCCCC",
     },
     "colors": {
         "activityBar.activeBackground": "#00000000",
@@ -1226,7 +1239,7 @@
         "commandCenter.inactiveForeground": "#B6B6B6",
         "debugConsole.errorForeground": "#DB6473",
         "debugConsole.infoForeground": "#569CD6",
-        "debugConsole.sourceForeground": "#E7C2B8",
+        "debugConsole.sourceForeground": "#CCCCCC",
         "debugConsole.warningForeground": "#F0A071",
         "debugConsoleInputIcon.foreground": "#CCCCCC",
         "debugExceptionWidget.background": "#131313",
@@ -1537,18 +1550,18 @@
         "symbolIcon.methodForeground": "#569CD6",
         "symbolIcon.moduleForeground": "#CCCCCC",
         "symbolIcon.namespaceForeground": "#E2C08D",
-        "symbolIcon.nullForeground": "#EA999C",
+        "symbolIcon.nullForeground": "#E69190",
         "symbolIcon.numberForeground": "#F0A071",
         "symbolIcon.objectForeground": "#E2C08D",
         "symbolIcon.operatorForeground": "#4EC9B0",
         "symbolIcon.packageForeground": "#E4AEAD",
-        "symbolIcon.propertyForeground": "#EA999C",
+        "symbolIcon.propertyForeground": "#E69190",
         "symbolIcon.referenceForeground": "#E2C08D",
         "symbolIcon.snippetForeground": "#E4AEAD",
         "symbolIcon.stringForeground": "#72BE7D",
         "symbolIcon.structForeground": "#4EC9B0",
         "symbolIcon.textForeground": "#CCCCCC",
-        "symbolIcon.typeParameterForeground": "#EA999C",
+        "symbolIcon.typeParameterForeground": "#E69190",
         "symbolIcon.unitForeground": "#CCCCCC",
         "symbolIcon.variableForeground": "#CCCCCC",
         "tab.activeBackground": "#1F1F1F",

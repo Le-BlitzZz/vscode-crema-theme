@@ -640,7 +640,7 @@
         "commandCenter.inactiveForeground": "#494949",
         "debugConsole.errorForeground": "#C73600",
         "debugConsole.infoForeground": "#003FE6",
-        "debugConsole.sourceForeground": "#C44300",
+        "debugConsole.sourceForeground": "",
         "debugConsole.warningForeground": "#D85A10",
         "debugConsoleInputIcon.foreground": "#333333",
         "debugExceptionWidget.background": "#ECECEC",

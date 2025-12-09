@@ -703,7 +703,7 @@
                 "constant.other.placeholder.go"
             ],
             "settings": {
-                "foreground": "#D85A10",
+                "foreground": "#A52A0F",
             }
         },
         // -- GOLANG COLORED --
@@ -1157,7 +1157,7 @@
         "magicFunction": "#006BB0",
         "variable.defaultLibrary:javascript": "#267A9A",
         "variable.defaultLibrary:typescript": "#267A9A",
-        "number": "#A52A0F",
+        "number": "#DD7878",
         "operator:dockerfile": "#04A5E5",
         "field:csharp": "#E64553",
         "enumMember:csharp": "#DF8E1D",
@@ -1171,6 +1171,19 @@
         // "property.declaration.static": "#DF8E1D",
         "variable.typeHint:python": "#8839EF",
         "keyword.overridden": "#A100C0",
+        "type.signature:go": "",
+        "type.defaultLibrary.number:go": "#A100C0",
+        "type.number:go": "#DD7878",
+        "type.defaultLibrary.string:go": "#A100C0",
+        "type.string:go": "#A52A0F",
+        "type.defaultLibrary.bool:go": "#A100C0",
+        "type.bool:go": "",
+        "type.pointer:go": "#C73600",
+        "type.chan:go": "",
+        "type.map:go": "#007100",
+        "type.array:go": "#D85A10",
+        "type.slice:go": "#B27A00",
+        "type:go": "#333333",
     },
     "colors": {
         "activityBar.activeBackground": "#00000000",
@@ -1226,7 +1239,7 @@
         "commandCenter.inactiveForeground": "#494949",
         "debugConsole.errorForeground": "#C73600",
         "debugConsole.infoForeground": "#003FE6",
-        "debugConsole.sourceForeground": "#C44300",
+        "debugConsole.sourceForeground": "#333333",
         "debugConsole.warningForeground": "#D85A10",
         "debugConsoleInputIcon.foreground": "#333333",
         "debugExceptionWidget.background": "#ECECEC",
