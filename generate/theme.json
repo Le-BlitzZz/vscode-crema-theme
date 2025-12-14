@@ -11,7 +11,8 @@
         },
         {
             "scope": [
-                "keyword.operator.logic"
+                "keyword.operator.logic",
+                "keyword.operator.python"
             ],
             "settings": {
                 "foreground": "{{sky}}"
@@ -137,6 +138,7 @@
             "scope": [
                 // "keyword.control.flow.python",
                 "constant.language.python",
+                "storage.type.type.python",
                 "storage.type.function.python",
                 "storage.modifier.declaration.python",
                 "storage.type.class.python",
@@ -778,6 +780,13 @@
         {
             "scope": [
                 "support.function.builtin.python",
+            ],
+            "settings": {
+                "foreground": "{{blue}}"
+            }
+        },
+        {
+            "scope": [
                 "entity.name.function.python"
             ],
             "settings": {
@@ -817,21 +826,12 @@
                 "support.function.magic.python"
             ],
             "settings": {
-                "foreground": "{{iris}}"
-            }
-        },
-        {
-            "scope": [
-                "support.variable.magic.python"
-            ],
-            "settings": {
-                "foreground": "{{yellow}}"
+                "foreground": "{{blue}}"
             }
         },
         {
             "scope": [
                 "entity.name.function.decorator",
-                "punctuation.definition.decorator",
                 "meta.function.decorator.python",
                 "constant.language.go.mod",
                 "constant.language.go.sum"
@@ -1037,7 +1037,8 @@
                 "operator.go.mod",
                 "punctuation.separator.key-value.makefile",
                 "punctuation.definition.variable.makefile",
-                "keyword.control.@.makefile"
+                "keyword.control.@.makefile",
+                "punctuation.definition.decorator",
             ],
             "settings": {
                 "foreground": "{{sky}}"
@@ -1139,20 +1140,20 @@
         "type:cpp": "{{mauve}}",
         "type:c": "{{mauve}}",
         "variable.readonly:go": "{{yellow}}",
-        "property.declaration.builtin:python": "{{yellow}}",
         "selfParameter": "{{green}}",
+        "clsParameter": "{{green}}",
         "class": "{{mauve}}",
         "class:dockerfile": "{{teal}}",
         "parameter:dockerfile": "{{text}}",
         "module": "{{teal}}",
         "function": "{{blue}}",
-        "function.decorator": "{{teal}}",
-        "class.decorator": "{{teal}}",
+        "function.decorator": "{{blue}}",
+        // "class.decorator": "{{teal}}",
         "method": "{{blue}}",
-        "property.declaration:python": "{{maroon}}",
+        "property:python": "{{maroon}}",
         "interface": "{{steel}}",
         "enum": "{{mauve}}",
-        "magicFunction": "{{iris}}",
+        // "magicFunction": "{{iris}}",
         "variable.defaultLibrary:javascript": "{{teal}}",
         "variable.defaultLibrary:typescript": "{{teal}}",
         "number": "{{flamingo}}",
@@ -1167,7 +1168,7 @@
         "property.static:javascript": "{{yellow}}",
         "property.static:typescript": "{{yellow}}",
         // "property.declaration.static": "{{yellow}}",
-        "variable.typeHint:python": "{{mauve}}",
+        // "variable.typeHint:python": "{{mauve}}",
         "keyword.overridden": "{{pink}}",
         "type.signature:go": "{{iris}}",
         "type.defaultLibrary.number:go": "{{pink}}",
@@ -1182,6 +1183,10 @@
         "type.array:go": "{{peach}}",
         "type.slice:go": "{{fawn}}",
         "type:go": "{{text}}",
+        "function.builtin:python": "{{blue}}",
+        "method.builtin:python": "{{blue}}",
+        "variable.builtin:python": "{{text}}",
+        "class.builtin:python": "{{mauve}}",
     },
     "colors": {
         "activityBar.activeBackground": "{{transparent}}",

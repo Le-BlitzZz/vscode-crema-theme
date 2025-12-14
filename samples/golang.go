@@ -9,6 +9,7 @@ import (
 	"fmt"
 	alias "fmt"
 	"net/http"
+	"samples/tempo"
 	"time"
 
 	"github.com/gin-gonic/gin"
@@ -101,7 +102,7 @@ var (
 )
 
 // SomeFunc is here
-func SomeFunc(param demoBool, param2 demoMap, param3 demoSlice) {
+func SomeFunc(param tempo.TempoBool, param2 demoMap, param3 demoSlice) {
 	
 }
 

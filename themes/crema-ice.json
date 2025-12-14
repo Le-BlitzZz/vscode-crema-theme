@@ -11,7 +11,8 @@
         },
         {
             "scope": [
-                "keyword.operator.logic"
+                "keyword.operator.logic",
+                "keyword.operator.python"
             ],
             "settings": {
                 "foreground": "#04A5E5"
@@ -137,6 +138,7 @@
             "scope": [
                 // "keyword.control.flow.python",
                 "constant.language.python",
+                "storage.type.type.python",
                 "storage.type.function.python",
                 "storage.modifier.declaration.python",
                 "storage.type.class.python",
@@ -778,6 +780,13 @@
         {
             "scope": [
                 "support.function.builtin.python",
+            ],
+            "settings": {
+                "foreground": "#003FE6"
+            }
+        },
+        {
+            "scope": [
                 "entity.name.function.python"
             ],
             "settings": {
@@ -817,21 +826,12 @@
                 "support.function.magic.python"
             ],
             "settings": {
-                "foreground": ""
-            }
-        },
-        {
-            "scope": [
-                "support.variable.magic.python"
-            ],
-            "settings": {
-                "foreground": "#DF8E1D"
+                "foreground": "#003FE6"
             }
         },
         {
             "scope": [
                 "entity.name.function.decorator",
-                "punctuation.definition.decorator",
                 "meta.function.decorator.python",
                 "constant.language.go.mod",
                 "constant.language.go.sum"
@@ -1037,7 +1037,8 @@
                 "operator.go.mod",
                 "punctuation.separator.key-value.makefile",
                 "punctuation.definition.variable.makefile",
-                "keyword.control.@.makefile"
+                "keyword.control.@.makefile",
+                "punctuation.definition.decorator",
             ],
             "settings": {
                 "foreground": "#04A5E5"
@@ -1139,20 +1140,20 @@
         "type:cpp": "#8839EF",
         "type:c": "#8839EF",
         "variable.readonly:go": "#DF8E1D",
-        "property.declaration.builtin:python": "#DF8E1D",
         "selfParameter": "#007100",
+        "clsParameter": "#007100",
         "class": "#8839EF",
         "class:dockerfile": "#267A9A",
         "parameter:dockerfile": "#333333",
         "module": "#267A9A",
         "function": "#003FE6",
-        "function.decorator": "#267A9A",
-        "class.decorator": "#267A9A",
+        "function.decorator": "#003FE6",
+        // "class.decorator": "#267A9A",
         "method": "#003FE6",
-        "property.declaration:python": "#E64553",
+        "property:python": "#E64553",
         "interface": "#0066C0",
         "enum": "#8839EF",
-        "magicFunction": "",
+        // "magicFunction": "",
         "variable.defaultLibrary:javascript": "#267A9A",
         "variable.defaultLibrary:typescript": "#267A9A",
         "number": "#DD7878",
@@ -1167,7 +1168,7 @@
         "property.static:javascript": "#DF8E1D",
         "property.static:typescript": "#DF8E1D",
         // "property.declaration.static": "#DF8E1D",
-        "variable.typeHint:python": "#8839EF",
+        // "variable.typeHint:python": "#8839EF",
         "keyword.overridden": "#A100C0",
         "type.signature:go": "",
         "type.defaultLibrary.number:go": "#A100C0",
@@ -1182,6 +1183,10 @@
         "type.array:go": "#D85A10",
         "type.slice:go": "#B27A00",
         "type:go": "#333333",
+        "function.builtin:python": "#003FE6",
+        "method.builtin:python": "#003FE6",
+        "variable.builtin:python": "#333333",
+        "class.builtin:python": "#8839EF",
     },
     "colors": {
         "activityBar.activeBackground": "#00000000",
