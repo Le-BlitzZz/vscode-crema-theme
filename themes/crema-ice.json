@@ -56,7 +56,6 @@
         {
             "scope": [
                 "keyword.other.unit.hexadecimal",
-                "constant.numeric",
                 "string.quoted",
                 "string.template",
                 "string.unquoted",
@@ -77,10 +76,9 @@
         {
             "scope": [
                 "constant.numeric",
-                "constant.language.go.mod"
             ],
             "settings": {
-                "foreground": "#A52A0F"
+                "foreground": "#DD7878"
             }
         },
         {
@@ -819,7 +817,7 @@
                 "support.function.magic.python"
             ],
             "settings": {
-                "foreground": "#006BB0"
+                "foreground": ""
             }
         },
         {
@@ -1154,7 +1152,7 @@
         "property.declaration:python": "#E64553",
         "interface": "#0066C0",
         "enum": "#8839EF",
-        "magicFunction": "#006BB0",
+        "magicFunction": "",
         "variable.defaultLibrary:javascript": "#267A9A",
         "variable.defaultLibrary:typescript": "#267A9A",
         "number": "#DD7878",
@@ -1304,7 +1302,7 @@
         "editorBracketHighlight.foreground2": "#267A9A",
         "editorBracketHighlight.foreground3": "#8839EF",
         "editorBracketHighlight.foreground4": "#D85A10",
-        // "editorBracketHighlight.foreground5": "#006BB0",
+        // "editorBracketHighlight.foreground5": "",
         // "editorBracketHighlight.foreground6": "#A100C0",
         "editorBracketHighlight.unexpectedBracket.foreground": "#747474",
         "editorBracketMatch.background": "#7474741a",
@@ -1532,11 +1530,11 @@
         "statusBarItem.warningBackground": "#00000000",
         "statusBarItem.warningForeground": "#D85A10",
         "symbolIcon.arrayForeground": "#D85A10",
-        "symbolIcon.booleanForeground": "#8839EF",
-        "symbolIcon.classForeground": "#DF8E1D",
+        "symbolIcon.booleanForeground": "",
+        "symbolIcon.classForeground": "#8839EF",
         "symbolIcon.colorForeground": "#A100C0",
-        "symbolIcon.constantForeground": "#D85A10",
-        "symbolIcon.constructorForeground": "#6C64F0",
+        "symbolIcon.constantForeground": "#DF8E1D",
+        "symbolIcon.constructorForeground": "#003FE6",
         "symbolIcon.enumeratorForeground": "#DF8E1D",
         "symbolIcon.enumeratorMemberForeground": "#DF8E1D",
         "symbolIcon.eventForeground": "#A100C0",
@@ -1544,22 +1542,22 @@
         "symbolIcon.fileForeground": "#333333",
         "symbolIcon.folderForeground": "#333333",
         "symbolIcon.functionForeground": "#003FE6",
-        "symbolIcon.interfaceForeground": "#DF8E1D",
+        "symbolIcon.interfaceForeground": "#0066C0",
         "symbolIcon.keyForeground": "#267A9A",
-        "symbolIcon.keywordForeground": "#8839EF",
+        "symbolIcon.keywordForeground": "#A100C0",
         "symbolIcon.methodForeground": "#003FE6",
-        "symbolIcon.moduleForeground": "#333333",
-        "symbolIcon.namespaceForeground": "#DF8E1D",
+        "symbolIcon.moduleForeground": "#267A9A",
+        "symbolIcon.namespaceForeground": "#267A9A",
         "symbolIcon.nullForeground": "#E64553",
-        "symbolIcon.numberForeground": "#D85A10",
-        "symbolIcon.objectForeground": "#DF8E1D",
-        "symbolIcon.operatorForeground": "#267A9A",
-        "symbolIcon.packageForeground": "#DD7878",
+        "symbolIcon.numberForeground": "#DD7878",
+        "symbolIcon.objectForeground": "#8839EF",
+        "symbolIcon.operatorForeground": "#04A5E5",
+        "symbolIcon.packageForeground": "#267A9A",
         "symbolIcon.propertyForeground": "#E64553",
-        "symbolIcon.referenceForeground": "#DF8E1D",
+        "symbolIcon.referenceForeground": "#267A9A",
         "symbolIcon.snippetForeground": "#DD7878",
-        "symbolIcon.stringForeground": "#007100",
-        "symbolIcon.structForeground": "#267A9A",
+        "symbolIcon.stringForeground": "#A52A0F",
+        "symbolIcon.structForeground": "#8839EF",
         "symbolIcon.textForeground": "#333333",
         "symbolIcon.typeParameterForeground": "#E64553",
         "symbolIcon.unitForeground": "#333333",

@@ -56,7 +56,6 @@
         {
             "scope": [
                 "keyword.other.unit.hexadecimal",
-                "constant.numeric",
                 "string.quoted",
                 "string.template",
                 "string.unquoted",
@@ -77,10 +76,9 @@
         {
             "scope": [
                 "constant.numeric",
-                "constant.language.go.mod"
             ],
             "settings": {
-                "foreground": "{{brown}}"
+                "foreground": "{{flamingo}}"
             }
         },
         {
@@ -819,7 +817,7 @@
                 "support.function.magic.python"
             ],
             "settings": {
-                "foreground": "{{sapphire}}"
+                "foreground": "{{iris}}"
             }
         },
         {
@@ -1154,7 +1152,7 @@
         "property.declaration:python": "{{maroon}}",
         "interface": "{{steel}}",
         "enum": "{{mauve}}",
-        "magicFunction": "{{sapphire}}",
+        "magicFunction": "{{iris}}",
         "variable.defaultLibrary:javascript": "{{teal}}",
         "variable.defaultLibrary:typescript": "{{teal}}",
         "number": "{{flamingo}}",
@@ -1177,7 +1175,7 @@
         "type.defaultLibrary.string:go": "{{pink}}",
         "type.string:go": "{{brown}}",
         "type.defaultLibrary.bool:go": "{{pink}}",
-        "type.bool:go": "{{grey}}",
+        "type.bool:go": "{{mint}}",
         "type.pointer:go": "{{red}}",
         "type.chan:go": "{{olive}}",
         "type.map:go": "{{green}}",
@@ -1304,7 +1302,7 @@
         "editorBracketHighlight.foreground2": "{{teal}}",
         "editorBracketHighlight.foreground3": "{{mauve}}",
         "editorBracketHighlight.foreground4": "{{peach}}",
-        // "editorBracketHighlight.foreground5": "{{sapphire}}",
+        // "editorBracketHighlight.foreground5": "{{iris}}",
         // "editorBracketHighlight.foreground6": "{{pink}}",
         "editorBracketHighlight.unexpectedBracket.foreground": "{{overlay2}}",
         "editorBracketMatch.background": "{{overlay2}}1a",
@@ -1532,11 +1530,11 @@
         "statusBarItem.warningBackground": "{{transparent}}",
         "statusBarItem.warningForeground": "{{peach}}",
         "symbolIcon.arrayForeground": "{{peach}}",
-        "symbolIcon.booleanForeground": "{{mauve}}",
-        "symbolIcon.classForeground": "{{yellow}}",
+        "symbolIcon.booleanForeground": "{{mint}}",
+        "symbolIcon.classForeground": "{{mauve}}",
         "symbolIcon.colorForeground": "{{pink}}",
-        "symbolIcon.constantForeground": "{{peach}}",
-        "symbolIcon.constructorForeground": "{{lavender}}",
+        "symbolIcon.constantForeground": "{{yellow}}",
+        "symbolIcon.constructorForeground": "{{blue}}",
         "symbolIcon.enumeratorForeground": "{{yellow}}",
         "symbolIcon.enumeratorMemberForeground": "{{yellow}}",
         "symbolIcon.eventForeground": "{{pink}}",
@@ -1544,22 +1542,22 @@
         "symbolIcon.fileForeground": "{{text}}",
         "symbolIcon.folderForeground": "{{text}}",
         "symbolIcon.functionForeground": "{{blue}}",
-        "symbolIcon.interfaceForeground": "{{yellow}}",
+        "symbolIcon.interfaceForeground": "{{steel}}",
         "symbolIcon.keyForeground": "{{teal}}",
-        "symbolIcon.keywordForeground": "{{mauve}}",
+        "symbolIcon.keywordForeground": "{{pink}}",
         "symbolIcon.methodForeground": "{{blue}}",
-        "symbolIcon.moduleForeground": "{{text}}",
-        "symbolIcon.namespaceForeground": "{{yellow}}",
+        "symbolIcon.moduleForeground": "{{teal}}",
+        "symbolIcon.namespaceForeground": "{{teal}}",
         "symbolIcon.nullForeground": "{{maroon}}",
-        "symbolIcon.numberForeground": "{{peach}}",
-        "symbolIcon.objectForeground": "{{yellow}}",
-        "symbolIcon.operatorForeground": "{{teal}}",
-        "symbolIcon.packageForeground": "{{flamingo}}",
+        "symbolIcon.numberForeground": "{{flamingo}}",
+        "symbolIcon.objectForeground": "{{mauve}}",
+        "symbolIcon.operatorForeground": "{{sky}}",
+        "symbolIcon.packageForeground": "{{teal}}",
         "symbolIcon.propertyForeground": "{{maroon}}",
-        "symbolIcon.referenceForeground": "{{yellow}}",
+        "symbolIcon.referenceForeground": "{{teal}}",
         "symbolIcon.snippetForeground": "{{flamingo}}",
-        "symbolIcon.stringForeground": "{{green}}",
-        "symbolIcon.structForeground": "{{teal}}",
+        "symbolIcon.stringForeground": "{{brown}}",
+        "symbolIcon.structForeground": "{{mauve}}",
         "symbolIcon.textForeground": "{{text}}",
         "symbolIcon.typeParameterForeground": "{{maroon}}",
         "symbolIcon.unitForeground": "{{text}}",

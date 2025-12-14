@@ -1,14 +1,18 @@
 /*
  * Go highlight sample
  */
-//go:build (linux || windows) && arm
-// +build linux,arm windows,arm
 
 // Package main
 package main
 
-import "fmt"
-import alias "fmt"
+import (
+	"fmt"
+	alias "fmt"
+	"net/http"
+	"time"
+
+	"github.com/gin-gonic/gin"
+)
 
 //go:generate go tool yacc -o gopher.go -p parser gopher.y
 
@@ -19,8 +23,25 @@ Generated spectrum to pick colors for local variables and parameters:
  Color#3 SC3.1 SC3.2 SC3.3 SC3.4 Color#4 SC4.1 SC4.2 SC4.3 SC4.4 Color#5
 */
 
-func do[T any]() {
+var x = http.Server{}
+var handler http.HandlerFunc
 
+func handl(w http.ResponseWriter, r *http.Request) {}
+
+var hh = http.HandlerFunc(handl)
+
+type handleFunc = http.HandlerFunc
+type myInterface = http.Handler
+
+var serve = http.Serve
+
+var y time.Ticker
+
+
+func do[TypeParameterTyperParameter any]() {
+	type Ptr *int
+	_ = 1234524123123123123
+	_ = "helo\n\n\n\nhelo"
 }
 
 type (
@@ -45,11 +66,21 @@ type (
 		privateField int
 	}
 
-	demoInt int
+	demoStruct struct {}
+	demoError error
+	demoInt    int
+	demoPointer *int
+	demoSlice   []int
+	demoMap     map[int]string
+	demoFunc   func()
+	demoChan    chan int
+	demoString string
+	demoArr     [5]int
+	demoBool   bool
 
-	T struct {
-		FirstName string `json:"first_name" arbitrary text`
-	}
+	// T struct {
+	// 	FirstName string `json:"first_name" arbitrary text`
+	// }
 )
 
 const (
@@ -60,7 +91,20 @@ const (
 var (
 	PublicVar  = 1
 	privateVar = 2
+
+	constInt  = demoInt(5)
+	constStr  = demoString("hello")
+	constStr2 demoString = "hello"
+	constBool = demoBool(true)
+
+	constPtr = demoArr{1, 2, 3}
 )
+
+// SomeFunc is here
+func SomeFunc(param demoBool, param2 demoMap, param3 demoSlice) {
+	
+}
+
 
 // PublicFunc does the thing
 func PublicFunc() int {
@@ -83,13 +127,19 @@ func (ps privateStruct) privateFunc() int {
 	return ps.PublicField
 }
 
+func tempFunc(f demoFunc) demoFunc {
+	f()
+	return func() {}
+}
+
 func _(pi PublicInterface) {
+
 }
 
 func _(pi privateInterface) {
 }
 
-func variableFunc(demo1 int, demo2 demoInt) {
+func variableFunc(demo1 int, demo2 demoInt, demo3 demoBool) {
 	demo1 = 3
 	a := PublicStruct{}
 	a.PublicFunc()
@@ -132,10 +182,13 @@ func main() {
 	const localConst = 2
 	fmt.Println("demo\n\xA")
 	alias.Println("demo")
-	variableFunc(1, 2)
+	variableFunc(1, 2, true)
 	var d, c *int = nil, nil
 	_, _ = c, d
 	_, _ = true, false
+
+	_ = "\n\n\n\n\n\n\n\n\n"
+	_ = 123456324123123
 }
 
 var ExportedVariableFunction = func() {}
@@ -157,6 +210,9 @@ func calls(t typeWithCall) {
 }
 
 func _() {
+	var demoErr demoError
+	demoErr = nil
+	_ = demoErr
 	var err error
 	a, err := 1, nil
 	println(a, err)
@@ -164,4 +220,11 @@ func _() {
 	for a := 0; a < 10; a++ {
 		println(a)
 	}
+}
+
+func withFuncParam(param func() int) func(func() int) int {
+	fmt.Println(param)
+	param()
+
+	return func(f func() int) int { return 4 }
 }
