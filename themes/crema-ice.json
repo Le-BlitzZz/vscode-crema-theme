@@ -1001,11 +1001,18 @@
             "scope": [
                 "entity.name.function.ts",
                 "entity.name.function.js",
+            ],
+            "settings": {
+                "foreground": "#003FE6"
+            }
+        },
+        {
+            "scope": [
                 "punctuation.decorator.ts",
                 "punctuation.decorator.js",
             ],
             "settings": {
-                "foreground": "#003FE6"
+                "foreground": "#04A5E5"
             }
         },
         {
@@ -1125,6 +1132,7 @@
     "semanticHighlighting": true,
     "semanticTokenColors": {
         "typeParameter:go": "#E64553",
+        "typeParameter:typescript": "#E64553",
         "parameter": "#40A02B",
         "parameter.definition:go": "#40A02B",
         "parameter.definition.signature:go": "#40A02B",
@@ -1147,9 +1155,9 @@
         "parameter:dockerfile": "#333333",
         "module": "#267A9A",
         "function": "#003FE6",
+        "method": "#003FE6",
         "function.decorator": "#003FE6",
         // "class.decorator": "#267A9A",
-        "method": "#003FE6",
         "property:python": "#E64553",
         "interface": "#0066C0",
         "enum": "#8839EF",
@@ -1648,7 +1656,7 @@
         "textBlockQuote.background": "#E0E0E0",
         "textBlockQuote.border": "#ECECEC",
         "textCodeBlock.background": "#E0E0E0",
-        "textLink.activeForeground": "#DD7878",
+        "textLink.activeForeground": "#E0005D",
         "textLink.foreground": "#E0005D",
         "textPreformat.foreground": "#333333",
         "textSeparator.foreground": "#333333",
