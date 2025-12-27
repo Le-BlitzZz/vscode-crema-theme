@@ -56,7 +56,6 @@
         },
         {
             "scope": [
-                "keyword.other.unit.hexadecimal",
                 "string.quoted",
                 "string.template",
                 "string.unquoted",
@@ -77,6 +76,7 @@
         {
             "scope": [
                 "constant.numeric",
+                "keyword.other.unit.hexadecimal",
             ],
             "settings": {
                 "foreground": "{{flamingo}}"
@@ -154,7 +154,7 @@
         // -- TYPESCRIPT --
         {
             "scope": [
-                "constant.language.undefined.ts",
+                // "constant.language.undefined.ts",
                 // "support.type.object.module.ts",
                 "keyword.operator.expression.import.ts",
                 "storage.type.ts",
@@ -763,6 +763,14 @@
         },
         {
             "scope": [
+                "source.python meta.function-call.generic",
+            ],
+            "settings": {
+                "foreground": "{{text}}"
+            }
+        },
+        {
+            "scope": [
                 "meta.function-call.generic",
             ],
             "settings": {
@@ -774,7 +782,7 @@
                 "variable.parameter.function-call.python",
             ],
             "settings": {
-                "foreground": "{{sage}}"
+                "foreground": "{{text}}"
             }
         },
         {
@@ -782,7 +790,7 @@
                 "support.function.builtin.python",
             ],
             "settings": {
-                "foreground": "{{blue}}"
+                "foreground": "{{text}}"
             }
         },
         {
@@ -790,7 +798,7 @@
                 "entity.name.function.python"
             ],
             "settings": {
-                "foreground": "{{blue}}"
+                "foreground": "{{text}}"
             }
         },
         // -- JS && TS --
@@ -813,26 +821,24 @@
             }
         },
         // -- PYTHON
-        {
-            "scope": [
-                "meta.attribute.python"
-            ],
-            "settings": {
-                "foreground": "{{maroon}}"
-            }
-        },
+        // {
+        //     "scope": [
+        //         "meta.attribute.python"
+        //     ],
+        //     "settings": {
+        //         "foreground": "{{maroon}}"
+        //     }
+        // },
         {
             "scope": [
                 "support.function.magic.python"
             ],
             "settings": {
-                "foreground": "{{blue}}"
+                "foreground": "{{text}}"
             }
         },
         {
             "scope": [
-                "entity.name.function.decorator",
-                "meta.function.decorator.python",
                 "constant.language.go.mod",
                 "constant.language.go.sum"
             ],
@@ -843,9 +849,11 @@
         {
             "scope": [
                 "entity.name.type.class.python",
+                "entity.name.function.decorator",
+                "meta.function.decorator.python",
             ],
             "settings": {
-                "foreground": "{{mauve}}"
+                "foreground": "{{text}}"
             }
         },
         // -- SHELL --
@@ -1003,7 +1011,7 @@
                 "entity.name.function.js",
             ],
             "settings": {
-                "foreground": "{{blue}}"
+                "foreground": "{{text}}"
             }
         },
         {
@@ -1093,7 +1101,7 @@
                "variable.language.special.self.python",
             ],
             "settings": {
-                "foreground": "{{green}}"
+                "foreground": "{{text}}"
             }
         },
         {

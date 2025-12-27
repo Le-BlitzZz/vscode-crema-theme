@@ -38,7 +38,6 @@
         },
         {
             "scope": [
-                "constant.numeric",
                 "string.quoted",
                 "string.template",
                 "string.unquoted",
@@ -57,10 +56,11 @@
         },
         {
             "scope": [
-                "constant.numeric"
+                "constant.numeric",
+                "keyword.other.unit.hexadecimal"
             ],
             "settings": {
-                "foreground": "#A52A0F"
+                "foreground": "#DD7878"
             }
         },
         {
@@ -728,7 +728,7 @@
         "editorGutter.foldingControlForeground": "#747474",
         "editorGutter.modifiedBackground": "#003FE6",
         "editorHoverWidget.background": "#E0E0E0",
-        "editorHoverWidget.border": "#E7E7E7",
+        "editorHoverWidget.border": "#E0E0E0",
         "editorHoverWidget.foreground": "#333333",
         "editorIndentGuide.activeBackground1": "#888888",
         "editorIndentGuide.background1": "#C0C0C0",
