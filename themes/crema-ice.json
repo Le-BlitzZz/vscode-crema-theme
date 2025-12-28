@@ -59,7 +59,8 @@
                 "string.quoted",
                 "string.template",
                 "string.unquoted",
-                "punctuation.definition.string",
+                // "punctuation.definition.string",
+                "string.quoted.double.go",
                 "string.other",
                 "markup.inline.raw.string.markdown",
                 "markup.raw.block.markdown",
@@ -92,7 +93,7 @@
                 "keyword.other.js",
                 "keyword.other.ts",
                 "meta.embedded",
-                "punctuation",
+                // "punctuation",
                 "entity.name.tag.yaml",
                 "keyword.control.flow.block-scalar.folded.yaml",
                 "keyword.control.flow.block-scalar.literal.yaml",
@@ -681,14 +682,12 @@
                 "punctuation.definition.end.bracket",
                 "punctuation.separator",
                 "punctuation.section",
-                "source.python punctuation.definition",
                 "punctuation.accessor.ts",
                 "punctuation.accessor.js",
                 "keyword.operator.type.annotation.ts",
                 "keyword.operator.type.annotation.js",
                 "punctuation.terminator.statement",
                 "punctuation.definition.template-expression",
-                "punctuation",
                 "punctuation.definition.parameters"
             ],
             "settings": {
@@ -697,6 +696,7 @@
         },
         {
             "scope": [
+                "source.python punctuation.definition",
                 "constant.character.escape",
                 "constant.character.escape.python",
                 "storage.type.format.python",
@@ -707,6 +707,14 @@
             }
         },
         // -- GOLANG COLORED --
+        {
+            "scope": [
+                "string.quoted.rune.go",
+            ],
+            "settings": {
+                "foreground": "#DD7878"
+            }
+        },
         {
             "scope": [
                 "source.go entity.name.function",
