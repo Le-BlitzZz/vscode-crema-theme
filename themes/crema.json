@@ -1174,7 +1174,7 @@
         "method": "#569CD6",
         "function.decorator": "#569CD6",
         // "class.decorator": "#4EC9B0",
-        "property:python": "#E08D8D",
+        "property:python": "#CCCCCC",
         "interface": "#91CDED",
         "enum": "#AD82E4",
         // "magicFunction": "#7A6CF0",

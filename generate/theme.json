@@ -1174,7 +1174,7 @@
         "method": "{{blue}}",
         "function.decorator": "{{blue}}",
         // "class.decorator": "{{teal}}",
-        "property:python": "{{maroon}}",
+        "property:python": "{{text}}",
         "interface": "{{steel}}",
         "enum": "{{mauve}}",
         // "magicFunction": "{{iris}}",
