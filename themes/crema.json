@@ -134,6 +134,24 @@
 
             }
         },
+        {
+            "scope": [
+                "keyword.other.unit.octal",
+                "keyword.other.unit.exponent.decimal",
+                "keyword.other.unit.exponent.hexadecimal",
+                "keyword.operator.plus.exponent.decimal",
+                "keyword.operator.minus.exponent.decimal",
+                "keyword.operator.plus.exponent.hexadecimal",
+                "keyword.operator.minus.exponent.hexadecimal",
+                "punctuation.separator.constant.numeric",
+                "constant.numeric.hexadecimal",
+                "keyword.other.unit.imaginary"
+            ],
+            "settings": {
+                "foreground": "#E3ADAC",
+
+            }
+        },
         // -- PYTHON --
         {
             "scope": [
@@ -688,7 +706,9 @@
                 "keyword.operator.type.annotation.js",
                 "punctuation.terminator.statement",
                 "punctuation.definition.template-expression",
-                "punctuation.definition.parameters"
+                "punctuation.definition.parameters",
+                "punctuation.terminator",
+                "punctuation.other.colon"
             ],
             "settings": {
                 "foreground": "#8B8B8B",
