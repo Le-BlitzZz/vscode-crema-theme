@@ -37,6 +37,8 @@ export const palettes = {
 		iris: { hex: "#7A6CF0" },
 		olive: { hex: "#95AA47" },
 		mint: { hex: "#62B693" },
+		celadon: { hex: "#b5cea8" },
+		new: { hex: "#C37134" },
 		// neutral
 		text: { hex: "#cccccc" },
 		subtext1: { hex: "#b6b6b6" },
