@@ -2,15 +2,6 @@
 import { mix, opacity, shade, transparent } from "./utils.ts";
 import { palettes, Handlebars, path } from "./palettes.ts";
 
-const handlebarsIsIce = (
-	lightCol: string,
-	darkCol: string,
-	context: any,
-): string => {
-	return context.data.root.isIce ? lightCol : darkCol;
-};
-
-Handlebars.registerHelper("isIce", handlebarsIsIce);
 Handlebars.registerHelper("opacity", opacity);
 Handlebars.registerHelper("mix", mix);
 Handlebars.registerHelper("shade", shade);
@@ -25,7 +16,6 @@ Deno.mkdirSync(themePath, {recursive: true});
 const generate = (file_path: string, isMinimal: boolean) => {
 	Deno.readTextFile(file_path).then((data: any) => {
 		Object.entries(palettes).forEach(([key, value]) => {
-			const isIce = key.toLowerCase().includes("ice");
 			const hexValues = Object.entries(value)
 				.map(([key, value]) => {
 					return {
@@ -36,7 +26,6 @@ const generate = (file_path: string, isMinimal: boolean) => {
 			
 			const options = {
 				name: key + (isMinimal ? " Minimal" : ""),
-				isIce: isIce,
 
 				...hexValues,
 			};

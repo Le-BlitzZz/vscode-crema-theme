@@ -2,7 +2,7 @@
   "name": "vscode-crema-theme",
   "displayName": "Crema",
   "description": "☕ Theme for daily code brew",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "publisher": "Le-BlitzZz",
   "keywords": [
     "crema",
@@ -17,12 +17,7 @@
     "crema theme",
     "creme theme",
     "brown",
-    "crema minimal",
-    "crema ice",
-    "crema ice minimal",
-    "light theme",
-    "creme ice",
-    "ice cream"
+    "crema minimal"
   ],
   "repository": {
     "type": "git",
@@ -45,16 +40,6 @@
         "label": "Crema Minimal",
         "uiTheme": "vs-dark",
         "path": "./themes/crema-minimal.json"
-      },
-      {
-        "label": "Crema Ice",
-        "uiTheme": "vs",
-        "path": "./themes/crema-ice.json"
-      },
-      {
-        "label": "Crema Ice Minimal",
-        "uiTheme": "vs",
-        "path": "./themes/crema-ice-minimal.json"
       }
     ]
   }
