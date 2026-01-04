@@ -45,7 +45,15 @@
         },
         {
             "scope": [
-                "comment",
+                "comment"
+            ],
+            "settings": {
+                "foreground": "{{overlay2}}",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
                 "punctuation.definition.comment",
                 "punctuation.definition.block.tag.jsdoc",
                 "punctuation.accessor.cs"                
@@ -1181,7 +1189,6 @@
         "type": "{{fawn}}",
         "type:cpp": "{{mauve}}",
         "type:c": "{{mauve}}",
-        "variable.readonly:go": "{{yellow}}",
         "selfParameter": "{{green}}",
         "clsParameter": "{{green}}",
         "class": "{{mauve}}",
@@ -1247,6 +1254,9 @@
         "property.embedded.slice:go": "{{fawn}}",
         "property.embedded.interface:go": "{{steel}}",
         "property.embedded.struct:go": "{{mauve}}",
+        "variable.readonly.package:go": "{{yellow}}",
+        "variable.readonly:go": "{{darkyellow}}",
+        "variable.package:go": "{{darkpink}}"
     },
     "colors": {
         "activityBar.activeBackground": "{{transparent}}",

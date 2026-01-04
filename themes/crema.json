@@ -45,7 +45,15 @@
         },
         {
             "scope": [
-                "comment",
+                "comment"
+            ],
+            "settings": {
+                "foreground": "#8B8B8B",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
                 "punctuation.definition.comment",
                 "punctuation.definition.block.tag.jsdoc",
                 "punctuation.accessor.cs"                
@@ -1181,7 +1189,6 @@
         "type": "#BDA78F",
         "type:cpp": "#AD82E4",
         "type:c": "#AD82E4",
-        "variable.readonly:go": "#E2C08D",
         "selfParameter": "#60BF6E",
         "clsParameter": "#60BF6E",
         "class": "#AD82E4",
@@ -1247,6 +1254,9 @@
         "property.embedded.slice:go": "#BDA78F",
         "property.embedded.interface:go": "#91CDED",
         "property.embedded.struct:go": "#AD82E4",
+        "variable.readonly.package:go": "#E2C08D",
+        "variable.readonly:go": "#C2A06D",
+        "variable.package:go": "#BD8EA5"
     },
     "colors": {
         "activityBar.activeBackground": "#00000000",
