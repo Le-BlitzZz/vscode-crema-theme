@@ -1255,8 +1255,8 @@
         "property.embedded.interface:go": "{{steel}}",
         "property.embedded.struct:go": "{{mauve}}",
         "variable.readonly.package:go": "{{yellow}}",
-        "variable.readonly:go": "{{darkyellow}}",
-        "variable.package:go": "{{darkpink}}"
+        "variable.readonly:go": "{{camel}}",
+        "variable.package:go": "{{berry}}"
     },
     "colors": {
         "activityBar.activeBackground": "{{transparent}}",

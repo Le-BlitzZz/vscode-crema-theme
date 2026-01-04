@@ -1256,7 +1256,7 @@
         "property.embedded.struct:go": "#AD82E4",
         "variable.readonly.package:go": "#E2C08D",
         "variable.readonly:go": "#C2A06D",
-        "variable.package:go": "#BD8EA5"
+        "variable.package:go": "#BF5880"
     },
     "colors": {
         "activityBar.activeBackground": "#00000000",
