@@ -25,7 +25,7 @@ export const palettes = {
 		magenta: { hex: "#D95D8A" },
 		flamingo: { hex: "#e3adac" },
 		pink: { hex: "#C586C0" },
-		berry: { hex: "#bf5880" },
+		berry: { hex: "#e683a9" },
 		mauve: { hex: "#ad82e4" },
 		red: { hex: "#e04c60" },
 		maroon: { hex: "#e08d8d" },
