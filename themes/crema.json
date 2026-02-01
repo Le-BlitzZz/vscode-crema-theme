@@ -1740,7 +1740,7 @@
         "tree.indentGuidesStroke": "#525252",
         "walkThrough.embeddedEditorBackground": "#1F1F1F4d",
         "welcomePage.progress.background": "#131313",
-        "welcomePage.progress.foreground": "#636363",
+        "welcomePage.progress.foreground": "#E3ADAC",
         "welcomePage.tileBackground": "#181818",
         "widget.shadow": "#18181880",
         // "window.activeBorder": "#00000000",

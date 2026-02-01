@@ -1740,7 +1740,7 @@
         "tree.indentGuidesStroke": "{{surface2}}",
         "walkThrough.embeddedEditorBackground": "{{base}}4d",
         "welcomePage.progress.background": "{{crust}}",
-        "welcomePage.progress.foreground": "{{overlay0}}",
+        "welcomePage.progress.foreground": "{{flamingo}}",
         "welcomePage.tileBackground": "{{mantle}}",
         "widget.shadow": "{{mantle}}80",
         // "window.activeBorder": "{{transparent}}",
