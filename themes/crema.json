@@ -262,9 +262,18 @@
 
             }
         },
+        {
+			"scope": [
+				"support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#CCCCCC"
+			}
+		},
         // -- CSS & HTML & XML --
         {
             "scope": [
+                "string",
                 "variable.parameter.url.css",
                 // "punctuation.attribute-shorthand.bind.html"
             ],
@@ -1254,9 +1263,9 @@
         "property.embedded.slice:go": "#BDA78F",
         "property.embedded.interface:go": "#91CDED",
         "property.embedded.struct:go": "#AD82E4",
-        "variable.readonly.package:go": "#E2C08D",
+        "variable.readonly.static:go": "#E2C08D",
         "variable.readonly:go": "#C2A06D",
-        "variable.package:go": "#E683A9"
+        "variable.static:go": "#E683A9"
     },
     "colors": {
         "activityBar.activeBackground": "#00000000",
@@ -1267,8 +1276,8 @@
         "activityBar.dropBorder": "#CCCCCC33",
         "activityBar.foreground": "#CCCCCC",
         "activityBar.inactiveForeground": "#777777",
-        "activityBarBadge.background": "#525252",
-        "activityBarBadge.foreground": "#CCCCCC",
+        "activityBarBadge.background": "#E3ADAC",
+        "activityBarBadge.foreground": "#131313",
         "activityBarTop.activeBorder": "#00000000",
         "activityBarTop.dropBorder": "#CCCCCC33",
         "activityBarTop.foreground": "#CCCCCC",

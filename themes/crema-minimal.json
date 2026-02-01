@@ -212,9 +212,18 @@
                 "foreground": "#C586C0",
             }
         },
+        {
+			"scope": [
+				"support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#CCCCCC"
+			}
+		},
         // -- CSS & HTML & XML --
         {
             "scope": [
+                "string",
                 "variable.parameter.url.css",
                 // "punctuation.attribute-shorthand.bind.html"
             ],
@@ -595,8 +604,8 @@
         "activityBar.dropBorder": "#CCCCCC33",
         "activityBar.foreground": "#CCCCCC",
         "activityBar.inactiveForeground": "#777777",
-        "activityBarBadge.background": "#525252",
-        "activityBarBadge.foreground": "#CCCCCC",
+        "activityBarBadge.background": "#E3ADAC",
+        "activityBarBadge.foreground": "#131313",
         "activityBarTop.activeBorder": "#00000000",
         "activityBarTop.dropBorder": "#CCCCCC33",
         "activityBarTop.foreground": "#CCCCCC",
