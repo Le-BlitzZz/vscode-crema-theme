@@ -1263,8 +1263,9 @@
         "property.embedded.slice:go": "{{fawn}}",
         "property.embedded.interface:go": "{{steel}}",
         "property.embedded.struct:go": "{{mauve}}",
-        "variable.readonly.static:go": "{{yellow}}",
-        "variable.readonly:go": "{{camel}}",
+        "variable.readonly.nonStatic:go": "{{camel}}",
+        "variable.readonly:go": "{{yellow}}",
+        "variable:go": "{{text}}",
         "variable.static:go": "{{berry}}"
     },
     "colors": {

@@ -1263,8 +1263,9 @@
         "property.embedded.slice:go": "#BDA78F",
         "property.embedded.interface:go": "#91CDED",
         "property.embedded.struct:go": "#AD82E4",
-        "variable.readonly.static:go": "#E2C08D",
-        "variable.readonly:go": "#C2A06D",
+        "variable.readonly.nonStatic:go": "#C2A06D",
+        "variable.readonly:go": "#E2C08D",
+        "variable:go": "#CCCCCC",
         "variable.static:go": "#E683A9"
     },
     "colors": {
