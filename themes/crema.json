@@ -1192,7 +1192,6 @@
         "parameter.signature:go": "#AFBF7E",
         "type.defaultLibrary:go": "#C586C0",
         "type.defaultLibrary.interface:go": "#C586C0",
-        "variable.readonly.defaultLibrary:go": "#C586C0",
         "struct:csharp": "#AD82E4",
         "namespace": "#4EC9B0",
         "type": "#BDA78F",
@@ -1266,7 +1265,8 @@
         "variable.readonly.nonStatic:go": "#C2A06D",
         "variable.readonly:go": "#E2C08D",
         "variable:go": "#CCCCCC",
-        "variable.static:go": "#E683A9"
+        "variable.static:go": "#E683A9",
+        "variable.readonly.defaultLibrary:go": "#C586C0",
     },
     "colors": {
         "activityBar.activeBackground": "#00000000",

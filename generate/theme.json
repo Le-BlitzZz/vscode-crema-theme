@@ -1192,7 +1192,6 @@
         "parameter.signature:go": "{{sage}}",
         "type.defaultLibrary:go": "{{pink}}",
         "type.defaultLibrary.interface:go": "{{pink}}",
-        "variable.readonly.defaultLibrary:go": "{{pink}}",
         "struct:csharp": "{{mauve}}",
         "namespace": "{{teal}}",
         "type": "{{fawn}}",
@@ -1266,7 +1265,8 @@
         "variable.readonly.nonStatic:go": "{{camel}}",
         "variable.readonly:go": "{{yellow}}",
         "variable:go": "{{text}}",
-        "variable.static:go": "{{berry}}"
+        "variable.static:go": "{{berry}}",
+        "variable.readonly.defaultLibrary:go": "{{pink}}",
     },
     "colors": {
         "activityBar.activeBackground": "{{transparent}}",
