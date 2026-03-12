@@ -40,7 +40,6 @@
             ],
             "settings": {
                 "foreground": "{{overlay2}}",
-                "fontStyle": "italic"
             }
         },
         {
@@ -1321,7 +1320,7 @@
         "editorLightBulb.foreground": "{{yellow}}",
         "editorLineNumber.activeForeground": "{{text}}",
         "editorLineNumber.foreground": "{{overlay1}}",
-        "editorLink.activeForeground": "{{overlay0}}",
+        "editorLink.activeForeground": "#b25a7b",
         "editorMarkerNavigation.background": "{{mantle}}",
         "editorMarkerNavigationError.background": "{{red}}",
         "editorMarkerNavigationInfo.background": "{{blue}}",

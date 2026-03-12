@@ -40,7 +40,6 @@
             ],
             "settings": {
                 "foreground": "#8B8B8B",
-                "fontStyle": "italic"
             }
         },
         {
@@ -1321,7 +1320,7 @@
         "editorLightBulb.foreground": "#E2C08D",
         "editorLineNumber.activeForeground": "#CCCCCC",
         "editorLineNumber.foreground": "#777777",
-        "editorLink.activeForeground": "#636363",
+        "editorLink.activeForeground": "#b25a7b",
         "editorMarkerNavigation.background": "#181818",
         "editorMarkerNavigationError.background": "#E04C60",
         "editorMarkerNavigationInfo.background": "#569CD6",
