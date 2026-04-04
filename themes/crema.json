@@ -124,7 +124,7 @@
             "scope": [
                 "keyword.control",
                 "keyword.preprocessor",
-                "entity.name.tag",
+                
                 "keyword.other",
                 "constant.language.json",
                 "punctuation.definition.keyword",
@@ -137,6 +137,15 @@
             ],
             "settings": {
                 "foreground": "#C586C0",
+
+            }
+        },
+        {
+            "scope": [
+                "entity.name.tag",
+            ],
+            "settings": {
+                "foreground": "#569CD6",
 
             }
         },
@@ -348,7 +357,7 @@
                 "markup.bold"
             ],
             "settings": {
-                "foreground": "#C586C0",
+                "foreground": "#E04C60",
                 "fontStyle": "bold"
             }
         },
@@ -357,7 +366,7 @@
                 "markup.italic"
             ],
             "settings": {
-                "foreground": "#C586C0",
+                "foreground": "#E04C60",
                 "fontStyle": "italic"
             }
         },
@@ -366,18 +375,19 @@
                 "markup.strikethrough"
             ],
             "settings": {
-                "foreground": "#C586C0",
+                "foreground": "#A0A0A0",
                 "fontStyle": "strikethrough"
             }
         },
         {
             "scope": [
-                "markup.heading",
-                "punctuation.definition.heading.markdown",
                 "punctuation.definition.list.begin.markdown",
+                "meta.separator.markdown",
+                "punctuation.definition.tag.begin.html",
+                "punctuation.definition.tag.end.html"
             ],
             "settings": {
-                "foreground": "#C586C0",
+                "foreground": "#79BBD4",
 
             }
         },
@@ -419,7 +429,8 @@
                 "storage.type.def.groovy",
                 "storage.modifier.static.groovy",
                 "keyword.operator.in.groovy",
-                "storage.modifier.other.groovy"
+                "storage.modifier.other.groovy",
+                "meta.tag.metadata.doctype entity.name.tag"
             ],
             "settings": {
                 "foreground": "#C586C0",
@@ -1083,7 +1094,6 @@
         },
         {
             "scope": [
-                "text.html punctuation",
                 "punctuation.definition.tag.xml",
                 "punctuation.definition.block.sequence.item.yaml",
                 "punctuation.separator.statement.and.shell",
@@ -1101,14 +1111,6 @@
             ],
             "settings": {
                 "foreground": "#79BBD4"
-            }
-        },
-        {
-            "scope": [
-                "entity.name.tag.yaml"
-            ],
-            "settings": {
-                "foreground": "#C586C0"
             }
         },
         {
@@ -1178,6 +1180,91 @@
             ],
             "settings": {
                 "foreground": "#C586C0"
+            }
+        },
+        {
+            "scope": [
+               "punctuation.definition.string.begin.markdown",
+               "punctuation.definition.string.end.markdown",
+               "punctuation.definition.raw.markdown",
+               "markup.quote.markdown"
+            ],
+            "settings": {
+                "foreground": "#CE9178"
+            }
+        },
+        {
+            "scope": [
+               "punctuation.definition.bold.markdown",
+               "punctuation.definition.italic.markdown",
+               "punctuation.definition.strikethrough.markdown",
+               "punctuation.definition.link.title.begin.markdown",
+               "punctuation.definition.link.title.end.markdown",
+               "punctuation.definition.metadata.markdown",
+               "punctuation.definition.link.description.begin.markdown",
+               "punctuation.definition.link.description.end.markdown",
+               "punctuation.definition.link.markdown",
+               "punctuation.definition.markdown",
+               "punctuation.definition.table.markdown",
+               "punctuation.definition.constant.begin.markdown",
+               "punctuation.definition.constant.end.markdown",
+            ],
+            "settings": {
+                "foreground": "#8B8B8B"
+            }
+        },
+        {
+            "scope": [
+               "markup.heading.setext.1.markdown",
+               "heading.1.markdown"
+            ],
+            "settings": {
+                "foreground": "#E04C60"
+            }
+        },
+        {
+            "scope": [
+               "markup.heading.setext.2.markdown",
+               "heading.2.markdown"
+            ],
+            "settings": {
+                "foreground": "#4EC9B0"
+            }
+        },
+        {
+            "scope": [
+               "markup.heading.setext.3.markdown",
+               "heading.3.markdown"
+            ],
+            "settings": {
+                "foreground": "#AD82E4"
+            }
+        },
+        {
+            "scope": [
+               "markup.heading.setext.4.markdown",
+               "heading.4.markdown"
+            ],
+            "settings": {
+                "foreground": "#E89A6D"
+            }
+        },
+        {
+            "scope": [
+               "markup.heading.setext.5.markdown",
+               "heading.5.markdown"
+            ],
+            "settings": {
+                "foreground": "#7A6CF0"
+            }
+        },
+        {
+            "scope": [
+               "markup.heading.setext.6.markdown",
+               "heading.6.markdown"
+            ],
+            "settings": {
+                "foreground": "#E683A9"
             }
         },
     ],
@@ -1389,7 +1476,7 @@
         "editorBracketHighlight.foreground3": "#AD82E4",
         "editorBracketHighlight.foreground4": "#E89A6D",
         // "editorBracketHighlight.foreground5": "#7A6CF0",
-        // "editorBracketHighlight.foreground6": "#C586C0",
+        // "editorBracketHighlight.foreground6": "#E683A9",
         "editorBracketHighlight.unexpectedBracket.foreground": "#8B8B8B",
         "editorBracketMatch.background": "#8B8B8B1a",
         "editorBracketMatch.border": "#8B8B8B",

@@ -124,7 +124,7 @@
             "scope": [
                 "keyword.control",
                 "keyword.preprocessor",
-                "entity.name.tag",
+                
                 "keyword.other",
                 "constant.language.json",
                 "punctuation.definition.keyword",
@@ -137,6 +137,15 @@
             ],
             "settings": {
                 "foreground": "{{pink}}",
+
+            }
+        },
+        {
+            "scope": [
+                "entity.name.tag",
+            ],
+            "settings": {
+                "foreground": "{{blue}}",
 
             }
         },
@@ -348,7 +357,7 @@
                 "markup.bold"
             ],
             "settings": {
-                "foreground": "{{pink}}",
+                "foreground": "{{red}}",
                 "fontStyle": "bold"
             }
         },
@@ -357,7 +366,7 @@
                 "markup.italic"
             ],
             "settings": {
-                "foreground": "{{pink}}",
+                "foreground": "{{red}}",
                 "fontStyle": "italic"
             }
         },
@@ -366,18 +375,19 @@
                 "markup.strikethrough"
             ],
             "settings": {
-                "foreground": "{{pink}}",
+                "foreground": "{{subtext0}}",
                 "fontStyle": "strikethrough"
             }
         },
         {
             "scope": [
-                "markup.heading",
-                "punctuation.definition.heading.markdown",
                 "punctuation.definition.list.begin.markdown",
+                "meta.separator.markdown",
+                "punctuation.definition.tag.begin.html",
+                "punctuation.definition.tag.end.html"
             ],
             "settings": {
-                "foreground": "{{pink}}",
+                "foreground": "{{sky}}",
 
             }
         },
@@ -419,7 +429,8 @@
                 "storage.type.def.groovy",
                 "storage.modifier.static.groovy",
                 "keyword.operator.in.groovy",
-                "storage.modifier.other.groovy"
+                "storage.modifier.other.groovy",
+                "meta.tag.metadata.doctype entity.name.tag"
             ],
             "settings": {
                 "foreground": "{{pink}}",
@@ -1083,7 +1094,6 @@
         },
         {
             "scope": [
-                "text.html punctuation",
                 "punctuation.definition.tag.xml",
                 "punctuation.definition.block.sequence.item.yaml",
                 "punctuation.separator.statement.and.shell",
@@ -1101,14 +1111,6 @@
             ],
             "settings": {
                 "foreground": "{{sky}}"
-            }
-        },
-        {
-            "scope": [
-                "entity.name.tag.yaml"
-            ],
-            "settings": {
-                "foreground": "{{pink}}"
             }
         },
         {
@@ -1178,6 +1180,91 @@
             ],
             "settings": {
                 "foreground": "{{pink}}"
+            }
+        },
+        {
+            "scope": [
+               "punctuation.definition.string.begin.markdown",
+               "punctuation.definition.string.end.markdown",
+               "punctuation.definition.raw.markdown",
+               "markup.quote.markdown"
+            ],
+            "settings": {
+                "foreground": "{{brown}}"
+            }
+        },
+        {
+            "scope": [
+               "punctuation.definition.bold.markdown",
+               "punctuation.definition.italic.markdown",
+               "punctuation.definition.strikethrough.markdown",
+               "punctuation.definition.link.title.begin.markdown",
+               "punctuation.definition.link.title.end.markdown",
+               "punctuation.definition.metadata.markdown",
+               "punctuation.definition.link.description.begin.markdown",
+               "punctuation.definition.link.description.end.markdown",
+               "punctuation.definition.link.markdown",
+               "punctuation.definition.markdown",
+               "punctuation.definition.table.markdown",
+               "punctuation.definition.constant.begin.markdown",
+               "punctuation.definition.constant.end.markdown",
+            ],
+            "settings": {
+                "foreground": "{{overlay2}}"
+            }
+        },
+        {
+            "scope": [
+               "markup.heading.setext.1.markdown",
+               "heading.1.markdown"
+            ],
+            "settings": {
+                "foreground": "{{red}}"
+            }
+        },
+        {
+            "scope": [
+               "markup.heading.setext.2.markdown",
+               "heading.2.markdown"
+            ],
+            "settings": {
+                "foreground": "{{teal}}"
+            }
+        },
+        {
+            "scope": [
+               "markup.heading.setext.3.markdown",
+               "heading.3.markdown"
+            ],
+            "settings": {
+                "foreground": "{{mauve}}"
+            }
+        },
+        {
+            "scope": [
+               "markup.heading.setext.4.markdown",
+               "heading.4.markdown"
+            ],
+            "settings": {
+                "foreground": "{{peach}}"
+            }
+        },
+        {
+            "scope": [
+               "markup.heading.setext.5.markdown",
+               "heading.5.markdown"
+            ],
+            "settings": {
+                "foreground": "{{iris}}"
+            }
+        },
+        {
+            "scope": [
+               "markup.heading.setext.6.markdown",
+               "heading.6.markdown"
+            ],
+            "settings": {
+                "foreground": "{{berry}}"
             }
         },
     ],
@@ -1389,7 +1476,7 @@
         "editorBracketHighlight.foreground3": "{{mauve}}",
         "editorBracketHighlight.foreground4": "{{peach}}",
         // "editorBracketHighlight.foreground5": "{{iris}}",
-        // "editorBracketHighlight.foreground6": "{{pink}}",
+        // "editorBracketHighlight.foreground6": "{{berry}}",
         "editorBracketHighlight.unexpectedBracket.foreground": "{{overlay2}}",
         "editorBracketMatch.background": "{{overlay2}}1a",
         "editorBracketMatch.border": "{{overlay2}}",
