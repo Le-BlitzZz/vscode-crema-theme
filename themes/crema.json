@@ -1184,6 +1184,7 @@
     "semanticHighlighting": true,
     "semanticTokenColors": {
         "typeParameter:go": "#C37134",
+        "typeParameter:python": "#C37134",
         "typeParameter:typescript": "#C37134",
         "parameter": "#AFBF7E",
         "parameter.definition:go": "#AFBF7E",
@@ -1206,7 +1207,6 @@
         "method": "#569CD6",
         "function.decorator": "#569CD6",
         // "class.decorator": "#4EC9B0",
-        "property:python": "#CCCCCC",
         "interface": "#91CDED",
         "enum": "#AD82E4",
         // "magicFunction": "#7A6CF0",
@@ -1243,7 +1243,7 @@
         "type:go": "#CCCCCC",
         "function.builtin:python": "#569CD6",
         "method.builtin:python": "#569CD6",
-        "variable.builtin:python": "#CCCCCC",
+        "variable.builtin:python": "#E683A9",
         "class.builtin:python": "#AD82E4",
         "receiver:go": "#60BF6E",
         "property": "#E08D8D",
@@ -1266,6 +1266,8 @@
         "variable:go": "#CCCCCC",
         "variable.static:go": "#E683A9",
         "variable.readonly.defaultLibrary:go": "#C586C0",
+        "variable.classMember:python": "#E08D8D",
+        "property:python": "#E89A6D",
     },
     "colors": {
         "activityBar.activeBackground": "#00000000",
