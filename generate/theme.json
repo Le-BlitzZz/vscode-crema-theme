@@ -272,10 +272,11 @@
         },
         {
 			"scope": [
-				"support.type.property-name.json"
+				"support.type.property-name.json",
+                "punctuation.support.type.property-name"
 			],
 			"settings": {
-				"foreground": "{{text}}"
+				"foreground": "{{blue}}"
 			}
 		},
         // -- CSS & HTML & XML --
@@ -669,15 +670,6 @@
             "settings": {
                 "foreground": "{{pink}}",
 
-            }
-        },
-        // -- COLORED --
-        {
-            "scope": [
-                "punctuation.support.type.property-name"
-            ],
-            "settings": {
-                "foreground": "{{text}}",
             }
         },
         {
