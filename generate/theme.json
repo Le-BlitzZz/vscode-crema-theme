@@ -20,15 +20,6 @@
         },
         {
             "scope": [
-                "entity.name.function",
-                "entity.name.type.contract"
-            ],
-            "settings": {
-                "foreground": "{{blue}}"
-            }
-        },
-        {
-            "scope": [
                 "storage.type.contract",
                 "storage.modifier.is",
                 "storage.type.modifier.access",
@@ -140,10 +131,59 @@
         },
         {
             "scope": [
+                "punctuation.eq.toml",
+                "punctuation.definition.keyword.css"
+            ],
+            "settings": {
+                "foreground": "{{sky}}",
+
+            }
+        },
+        {
+            "scope": [
+                "constant.other.time.datetime.offset.toml",
+            ],
+            "settings": {
+                "foreground": "{{yellow}}",
+
+            }
+        },
+        {
+            "scope": [
+                "punctuation.definition.table.inline.toml",
+            ],
+            "settings": {
+                "foreground": "{{red}}",
+
+            }
+        },
+        {
+            "scope": [
                 "entity.name.tag",
             ],
             "settings": {
                 "foreground": "{{blue}}",
+
+            }
+        },
+        {
+            "scope": [
+                "entity.name.tag.js",
+            ],
+            "settings": {
+                "foreground": "{{text}}",
+
+            }
+        },
+        {
+            "scope": [
+                "punctuation.definition.tag.begin.js",
+                "punctuation.definition.tag.end.js",
+                "punctuation.definition.tag.begin.ts",
+                "punctuation.definition.tag.end.ts",
+            ],
+            "settings": {
+                "foreground": "{{sky}}",
 
             }
         },
@@ -274,7 +314,7 @@
                 "punctuation.support.type.property-name"
 			],
 			"settings": {
-				"foreground": "{{blue}}"
+				"foreground": "{{text}}"
 			}
 		},
         // -- CSS & HTML & XML --
@@ -574,7 +614,7 @@
                 "entity.name.section.group-title.ini",
             ],
             "settings": {
-                "foreground": "{{pink}}",
+                "foreground": "{{mauve}}",
 
             }
         },
@@ -863,15 +903,6 @@
                 "foreground": "{{pink}}"
             }
         },
-        {
-            "scope": [
-                "variable.other.enummember.ts",
-                "variable.other.enummember.js"
-            ],
-            "settings": {
-                "foreground": "{{yellow}}"
-            }
-        },
         // -- PYTHON
         // {
         //     "scope": [
@@ -1049,7 +1080,7 @@
                 "entity.other.attribute-name"
             ],
             "settings": {
-                "foreground": "{{mauve}}"
+                "foreground": "{{blue}}"
             }
         },
         {
@@ -1148,15 +1179,13 @@
         {
             "scope": [
                 "punctuation.definition.annotation.java",
-                "storage.type.annotation.java"
             ],
             "settings": {
-                "foreground": "{{fawn}}"
+                "foreground": "{{sky}}"
             }
         },
         {
             "scope": [
-                "entity.name.function.java",
                 "entity.name.function.cs",
                 "source.makefile support.function"
             ],

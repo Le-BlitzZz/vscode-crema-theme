@@ -20,15 +20,6 @@
         },
         {
             "scope": [
-                "entity.name.function",
-                "entity.name.type.contract"
-            ],
-            "settings": {
-                "foreground": "#569CD6"
-            }
-        },
-        {
-            "scope": [
                 "storage.type.contract",
                 "storage.modifier.is",
                 "storage.type.modifier.access",
@@ -140,10 +131,59 @@
         },
         {
             "scope": [
+                "punctuation.eq.toml",
+                "punctuation.definition.keyword.css"
+            ],
+            "settings": {
+                "foreground": "#79BBD4",
+
+            }
+        },
+        {
+            "scope": [
+                "constant.other.time.datetime.offset.toml",
+            ],
+            "settings": {
+                "foreground": "#E2C08D",
+
+            }
+        },
+        {
+            "scope": [
+                "punctuation.definition.table.inline.toml",
+            ],
+            "settings": {
+                "foreground": "#E04C60",
+
+            }
+        },
+        {
+            "scope": [
                 "entity.name.tag",
             ],
             "settings": {
                 "foreground": "#569CD6",
+
+            }
+        },
+        {
+            "scope": [
+                "entity.name.tag.js",
+            ],
+            "settings": {
+                "foreground": "#CCCCCC",
+
+            }
+        },
+        {
+            "scope": [
+                "punctuation.definition.tag.begin.js",
+                "punctuation.definition.tag.end.js",
+                "punctuation.definition.tag.begin.ts",
+                "punctuation.definition.tag.end.ts",
+            ],
+            "settings": {
+                "foreground": "#79BBD4",
 
             }
         },
@@ -274,7 +314,7 @@
                 "punctuation.support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#569CD6"
+				"foreground": "#CCCCCC"
 			}
 		},
         // -- CSS & HTML & XML --
@@ -574,7 +614,7 @@
                 "entity.name.section.group-title.ini",
             ],
             "settings": {
-                "foreground": "#C586C0",
+                "foreground": "#AD82E4",
 
             }
         },
@@ -863,15 +903,6 @@
                 "foreground": "#C586C0"
             }
         },
-        {
-            "scope": [
-                "variable.other.enummember.ts",
-                "variable.other.enummember.js"
-            ],
-            "settings": {
-                "foreground": "#E2C08D"
-            }
-        },
         // -- PYTHON
         // {
         //     "scope": [
@@ -1049,7 +1080,7 @@
                 "entity.other.attribute-name"
             ],
             "settings": {
-                "foreground": "#AD82E4"
+                "foreground": "#569CD6"
             }
         },
         {
@@ -1148,15 +1179,13 @@
         {
             "scope": [
                 "punctuation.definition.annotation.java",
-                "storage.type.annotation.java"
             ],
             "settings": {
-                "foreground": "#BDA78F"
+                "foreground": "#79BBD4"
             }
         },
         {
             "scope": [
-                "entity.name.function.java",
                 "entity.name.function.cs",
                 "source.makefile support.function"
             ],
