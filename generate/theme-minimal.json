@@ -177,6 +177,18 @@
         },
         {
             "scope": [
+                "punctuation.definition.tag.begin.js",
+                "punctuation.definition.tag.end.js",
+                "punctuation.definition.tag.begin.ts",
+                "punctuation.definition.tag.end.ts",
+            ],
+            "settings": {
+                "foreground": "{{sky}}",
+
+            }
+        },
+        {
+            "scope": [
                 "keyword.other.unit.octal",
                 "keyword.other.unit.exponent.decimal",
                 "keyword.other.unit.exponent.hexadecimal",
@@ -1065,7 +1077,6 @@
         {
             "scope": [
                 "entity.name.function.target.makefile",
-                "entity.other.attribute-name"
             ],
             "settings": {
                 "foreground": "{{blue}}"
@@ -1304,6 +1315,14 @@
             ],
             "settings": {
                 "foreground": "{{berry}}"
+            }
+        },
+        {
+            "scope": [
+                "entity.other.attribute-name"
+            ],
+            "settings": {
+                "foreground": "{{mauve}}"
             }
         },
     ],

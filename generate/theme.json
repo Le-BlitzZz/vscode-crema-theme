@@ -1077,7 +1077,6 @@
         {
             "scope": [
                 "entity.name.function.target.makefile",
-                "entity.other.attribute-name"
             ],
             "settings": {
                 "foreground": "{{blue}}"
@@ -1318,6 +1317,14 @@
                 "foreground": "{{berry}}"
             }
         },
+        {
+            "scope": [
+                "entity.other.attribute-name"
+            ],
+            "settings": {
+                "foreground": "{{mauve}}"
+            }
+        },
     ],
     "semanticHighlighting": true,
     "semanticTokenColors": {
@@ -1406,6 +1413,7 @@
         "variable.readonly.defaultLibrary:go": "{{pink}}",
         "variable.classMember:python": "{{maroon}}",
         "property:python": "{{peach}}",
+        "variable.readonly:python": "{{yellow}}",
     },
     "colors": {
         "activityBar.activeBackground": "{{transparent}}",

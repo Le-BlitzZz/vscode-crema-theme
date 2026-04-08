@@ -1077,7 +1077,6 @@
         {
             "scope": [
                 "entity.name.function.target.makefile",
-                "entity.other.attribute-name"
             ],
             "settings": {
                 "foreground": "#569CD6"
@@ -1318,6 +1317,14 @@
                 "foreground": "#E683A9"
             }
         },
+        {
+            "scope": [
+                "entity.other.attribute-name"
+            ],
+            "settings": {
+                "foreground": "#AD82E4"
+            }
+        },
     ],
     "semanticHighlighting": true,
     "semanticTokenColors": {
@@ -1406,6 +1413,7 @@
         "variable.readonly.defaultLibrary:go": "#C586C0",
         "variable.classMember:python": "#E08D8D",
         "property:python": "#E89A6D",
+        "variable.readonly:python": "#E2C08D",
     },
     "colors": {
         "activityBar.activeBackground": "#00000000",
